@@ -28,12 +28,13 @@
        (list "org-site:main"
              :recursive t
              :base-directory "./content"
+             :base-extension "org"
              :publishing-function 'org-html-publish-to-html
              :body-only t
              :publishing-directory "./_site"
              :with-author nil           ;; Don't include author name
-             :with-creator t            ;; Include Emacs and Org versions in footer
-             :with-toc t                ;; Include a table of contents
+             :with-creator nil            ;; Include Emacs and Org versions in footer
+             :with-toc nil                ;; Include a table of contents
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
