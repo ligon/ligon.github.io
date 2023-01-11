@@ -17,10 +17,10 @@
 (require 'ox-publish)
 
 ;; Customize the HTML output
-(setq org-html-validation-link nil            ;; Don't show validation link
-      org-html-head-include-scripts nil       ;; Use our own scripts
-      org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+;(setq org-html-validation-link nil            ;; Don't show validation link
+;      org-html-head-include-scripts nil       ;; Use our own scripts
+;      org-html-head-include-default-style nil ;; Use our own styles
+;      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -29,7 +29,8 @@
              :recursive t
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
-             :publishing-directory "./public"
+             :body-only t
+             :publishing-directory "./_site"
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc t                ;; Include a table of contents
