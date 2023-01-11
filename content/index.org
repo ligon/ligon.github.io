@@ -1,4 +1,9 @@
-#+title: Org Mode Example Site
+#+begin_export html
+---
+layout: default
+title: Ligon Test
+---
+#+end_export
 
 * Overview
 
