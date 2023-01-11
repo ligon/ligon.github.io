@@ -12,4 +12,6 @@ This is an *example* of a _website_ written with [[https://orgmode.org][Org Mode
      \log x_{it} = \bar{\beta}\log\theta_i - \bar{\beta}\log\mu_t + e_{it}.
 \]
 
+Also, here are some inline math fragments: $e^{(\beta_j-\bar{\beta})w}$.
+
 * Links
