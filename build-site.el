@@ -18,7 +18,7 @@
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil
-      org-html-head-include-scripts nil
+      org-html-head-include-scripts t ; Need mathjax...
       org-html-head-include-default-style nil)
 
 ;; Define the publishing project
