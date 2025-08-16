@@ -21,6 +21,16 @@ jobs:
       with:
         version: 29.1
 
+    - name: Install ox-hugo
+      run: |
+        emacs --batch -Q \
+          --eval "(require 'package)" \
+          --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
+          --eval "(package-initialize)" \
+          --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))"
+```
+
+This step uses Emacs in batch mode to install `ox-hugo` by setting up the package system, adding MELPA to the list of package archives, initializing the package system, checking if `ox-hugo` is installed, and if not, refreshing the package contents and installing it.
 
     - name: Install dependencies
       run: |
