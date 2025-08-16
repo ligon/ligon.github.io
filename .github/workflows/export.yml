@@ -15,6 +15,11 @@ jobs:
       with:
         submodules: true  # Fetches and initializes submodules
 
+    - name: Set up Emacs
+      uses: purcell/setup-emacs@master
+      with:
+        version: 29.1
+
     - name: Install ox-hugo
       run: |
         emacs --batch -Q \
@@ -22,11 +27,6 @@ jobs:
           --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
           --eval "(package-initialize)" \
           --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))"
-
-    - name: Set up Emacs
-      uses: purcell/setup-emacs@master
-      with:
-        version: 29.1
 
     - name: Install dependencies
       run: |
