@@ -33,7 +33,7 @@ jobs:
         --eval "(require 'package)" \
         --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
         --eval "(package-initialize)" \
-        --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))
+        --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))"
 
     - name: Export org to markdown
       run: |
