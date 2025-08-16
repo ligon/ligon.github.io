@@ -20,13 +20,14 @@ jobs:
       with:
         version: 29.1
 
-    - name: Install ox-hugo
-      run: |
-        emacs --batch -Q \
-          --eval "(require 'package)" \
-          --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
-          --eval "(package-initialize)" \
-          --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))"
+   - name: Install ox-hugo
+     run: |
+       emacs --batch -Q \
+         --eval "(require 'package)" \
+         --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
+         --eval "(package-initialize)" \
+         --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))" \
+         --eval "(require 'ox-hugo)"
 
     - name: Install dependencies
       run: |
@@ -34,9 +35,15 @@ jobs:
         sudo apt-get install -y hugo
         # Additional dependencies if needed (e.g., fonts, themes)
 
-    - name: Export org to markdown
-      run: |
-        emacs --batch -l org -l ox-hugo --visit org/website.org --funcall org-hugo-export-to-md
+- name: Export org to markdown
+  run: |
+    emacs --batch \
+      --eval "(require 'package)" \
+      --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
+      --eval "(package-initialize)" \
+      --eval "(require 'ox-hugo)" \
+      --visit org/website.org \
+      --funcall org-hugo-export-to-md
 
     - name: Build Hugo site
       run: hugo --minify
@@ -47,4 +54,3 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-# Will this work?
