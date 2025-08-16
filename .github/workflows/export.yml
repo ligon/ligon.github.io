@@ -35,15 +35,15 @@ jobs:
         sudo apt-get install -y hugo
         # Additional dependencies if needed (e.g., fonts, themes)
 
-- name: Export org to markdown
-  run: |
-    emacs --batch \
-      --eval "(require 'package)" \
-      --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
-      --eval "(package-initialize)" \
-      --eval "(require 'ox-hugo)" \
-      --visit org/website.org \
-      --funcall org-hugo-export-to-md
+    - name: Export org to markdown
+      run: |
+        emacs --batch \
+          --eval "(require 'package)" \
+          --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
+          --eval "(package-initialize)" \
+          --eval "(require 'ox-hugo)" \
+          --visit org/website.org \
+          --funcall org-hugo-export-to-md
 
     - name: Build Hugo site
       run: hugo --minify
