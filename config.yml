@@ -2,3 +2,55 @@ baseURL: "https://ligon.github.io"
 title: Ethan Ligon
 theme: PaperMod
 languageCode: en-us
+
+params:
+    description: "This website hosts material related to Ethan Ligon's research papers, course materials, data, curriculum vitae, and contact information."
+    author: Ethan Ligon
+    math: true
+    profileMode:
+          enabled: true
+          title: Ethan Ligon
+          subtitle: "I am a Professor in the Department of Agricultural & Resource Economics at the University of California, Berkeley."
+          imageUrl: "ligon.jpg"
+          imageWidth: 320
+          imageHeight: 160
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:ligon@berkeley.edu
+        - name: Location
+          url: location/
+        - name: Office Hours
+          url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=jRwNfxwAAAAJ
+        - name: GitHub
+          url: https://github.com/ligon
+
+
+    assets:
+        favicon: "/favicon.ico"
+        favicon16x16: "/favicon-16x16.png"
+        favicon32x32: "/favicon-32x32.png"
+        apple_touch_icon: "/apple-touch-icon.png"
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
