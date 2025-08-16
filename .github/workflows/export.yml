@@ -17,9 +17,9 @@ jobs:
 
 
     - name: Set up Emacs
-      uses: purcell/setup-emacs@v2
+      uses: purcell/setup-emacs@master
       with:
-        version: 'latest' # You can specify a particular version if needed
+        version: 24.5
 
     - name: Install dependencies
       run: |
