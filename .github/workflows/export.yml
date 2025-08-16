@@ -3,7 +3,7 @@ name: Deploy Hugo site
 on:
   push:
     branches:
-      - master  # Deploy when changes are pushed to the master branch
+      - main  # Deploy when changes are pushed to the main branch
 
 jobs:
   build:
@@ -17,9 +17,9 @@ jobs:
 
 
     - name: Set up Emacs
-    uses: purcell/setup-emacs@master
-    with:
-        version: 24.5
+      uses: purcell/setup-emacs@v2
+      with:
+        version: 'latest' # You can specify a particular version if needed
 
     - name: Install dependencies
       run: |
