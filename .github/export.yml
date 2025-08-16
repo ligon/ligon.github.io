@@ -12,6 +12,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        submodules: true  # Fetches and initializes submodules
+
 
     - name: Set up Emacs
       uses: purcell/setup-emacs@v2
@@ -23,6 +26,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y hugo
         # Additional dependencies if needed (e.g., fonts, themes)
+
+    - name: Install ox-hugo
+      run: |
+        emacs --batch \
+        --eval "(require 'package)" \
+        --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
+        --eval "(package-initialize)" \
+        --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))
 
     - name: Export org to markdown
       run: |
@@ -36,3 +47,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+
