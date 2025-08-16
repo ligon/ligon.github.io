@@ -1,0 +1,38 @@
+name: Deploy Hugo site
+
+on:
+  push:
+    branches:
+      - main  # Deploy when changes are pushed to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Emacs
+      uses: purcell/setup-emacs@v2
+      with:
+        version: 'latest' # You can specify a particular version if needed
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y hugo
+        # Additional dependencies if needed (e.g., fonts, themes)
+
+    - name: Export org to markdown
+      run: |
+        emacs --batch -l org -l ox-hugo --visit org/website.org --funcall org-hugo-export-to-md
+
+    - name: Build Hugo site
+      run: hugo --minify
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
