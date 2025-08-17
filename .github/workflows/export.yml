@@ -9,7 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        submodules: true  # Fetches and initializes submodules
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
@@ -18,12 +21,6 @@ jobs:
     - name: Build Site
       run: hugo
 
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        submodules: true  # Fetches and initializes submodules
 
     - name: Set up Emacs
       uses: purcell/setup-emacs@master
