@@ -18,15 +18,12 @@ jobs:
       with:
         hugo-version: '0.148.2'
         extended: true
-    - name: Build Site
-      run: hugo
-
     - name: Set up Emacs
       uses: purcell/setup-emacs@master
       with:
         version: 29.1
 
-    - name: Install ox-hugo from MELPA
+    - name: Install ox-hugo from MELPA; Export org to markdown
       run: |
         emacs --batch \
           --eval "(require 'package)" \
@@ -38,14 +35,10 @@ jobs:
           --find-file "content-org/website.org" \
           --eval "(org-hugo-export-wim-to-md :all-subtrees)"
 
-#    - name: Export org to markdown
-#      run: |
-#        emacs --batch  \
-#          --eval "(require 'org)" \
-#          --eval "(require 'ox-hugo)" \
-
     - name: Build Hugo site
-      run: hugo --minify
+      run: |
+        hugo --minify
+        find . -name \*.css
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
