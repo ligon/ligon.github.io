@@ -41,10 +41,11 @@ jobs:
           --eval "(require 'package)" \
           --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
           --eval "(package-initialize)" \
+          --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))" \
+          --eval "(require 'org)" \
           --eval "(require 'ox-hugo)" \
-          --find-file "org/website.org" \
+          --visit "org/website.org" \
           --eval "(org-hugo-export-wim-to-md :all-subtrees)"
-
 
     - name: Build Hugo site
       run: hugo --minify
