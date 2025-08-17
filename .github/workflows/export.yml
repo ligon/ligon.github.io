@@ -26,26 +26,23 @@ jobs:
       with:
         version: 29.1
 
-    - name: Install ox-hugo
+    - name: Install ox-hugo from MELPA
       run: |
-        git clone https://github.com/kaushalmodi/ox-hugo.git ox-hugo
-        git clone https://github.com/kaushalmodi/tomelr.git tomelr
-        emacs --batch -Q \
-          --eval "(add-to-list 'load-path \"$(pwd)/tomelr\")" \
-          --eval "(load \"tomelr-autoloads.el\")" \
-          --eval "(add-to-list 'load-path \"$(pwd)/ox-hugo\")" \
-          --eval "(require 'ox-hugo)"
-
-    - name: Export org to markdown
-      run: |
-        emacs --batch -Q \
-          --eval "(add-to-list 'load-path \"$(pwd)/tomelr\")" \
-          --eval "(load \"tomelr-autoloads.el\")" \
-          --eval "(add-to-list 'load-path \"$(pwd)/ox-hugo\")" \
+        emacs --batch \
+          --eval "(require 'package)" \
+          --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
+          --eval "(package-initialize)" \
+          --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))" \
           --eval "(require 'org)" \
           --eval "(require 'ox-hugo)" \
           --find-file "content-org/website.org" \
           --eval "(org-hugo-export-wim-to-md :all-subtrees)"
+
+#    - name: Export org to markdown
+#      run: |
+#        emacs --batch  \
+#          --eval "(require 'org)" \
+#          --eval "(require 'ox-hugo)" \
 
     - name: Build Hugo site
       run: hugo --minify
