@@ -1,4 +1,4 @@
-baseURL: "/" #"https://ligon.github.io"
+baseURL: "https://ligon.github.io/"
 relativeURLs: true
 title: Ethan Ligon
 theme: PaperMod
