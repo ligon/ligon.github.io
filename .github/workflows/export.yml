@@ -39,8 +39,8 @@ jobs:
       run: |
         echo "Current directory:"
         pwd
-        echo "Contents:"
-        ls -R  # Recursive list to see the directory structure    emacs --batch \
+        echo "location of website.org:"
+        find . -name website.org
         emacs --batch \
           --eval "(require 'package)" \
           --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
