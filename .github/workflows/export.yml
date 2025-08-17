@@ -37,6 +37,10 @@ jobs:
 
     - name: Export org to markdown
       run: |
+        echo "Current directory:"
+        pwd
+        echo "Contents:"
+        ls -R  # Recursive list to see the directory structure    emacs --batch \
         emacs --batch \
           --eval "(require 'package)" \
           --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\"))" \
@@ -44,7 +48,7 @@ jobs:
           --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))" \
           --eval "(require 'org)" \
           --eval "(require 'ox-hugo)" \
-          --visit "org/website.org" \
+          --find-file \"$(pwd)/org/website.org\" \
           --eval "(org-hugo-export-wim-to-md :all-subtrees)"
 
     - name: Build Hugo site
