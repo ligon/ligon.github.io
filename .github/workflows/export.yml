@@ -8,6 +8,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+    - name: Build Site
+      run: hugo
+
 
     steps:
     - name: Checkout repository
@@ -28,12 +38,6 @@ jobs:
           --eval "(package-initialize)" \
           --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))" \
           --eval "(require 'ox-hugo)"
-
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y hugo
-        # Additional dependencies if needed (e.g., fonts, themes)
 
     - name: Export org to markdown
       run: |
