@@ -12,7 +12,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
-        submodules: true  # Fetches and initializes submodules
+        submodules: recursive  # Fetches and initializes submodules
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
@@ -21,29 +21,29 @@ jobs:
     - name: Build Site
       run: hugo
 
-
     - name: Set up Emacs
       uses: purcell/setup-emacs@master
       with:
         version: 29.1
 
-    - name: Install ox-hugo from GitHub
+    - name: Install ox-hugo
       run: |
         git clone https://github.com/kaushalmodi/ox-hugo.git ox-hugo
+        git clone https://github.com/kaushalmodi/tomelr.git tomelr
         emacs --batch -Q \
-          --eval "(add-to-list 'load-path \"ox-hugo\")" \
+          --eval "(add-to-list 'load-path \"$(pwd)/tomelr\")" \
+          --eval "(load \"tomelr-autoloads.el\")" \
+          --eval "(add-to-list 'load-path \"$(pwd)/ox-hugo\")" \
           --eval "(require 'ox-hugo)"
 
     - name: Export org to markdown
       run: |
-        echo "Current directory:"
-        pwd
-        echo "location of website.org:"
-        find . -name PaperMod
         emacs --batch -Q \
-          --eval "(add-to-list 'load-path \"ox-hugo\")" \
+          --eval "(add-to-list 'load-path \"$(pwd)/tomelr\")" \
+          --eval "(load \"tomelr-autoloads.el\")" \
+          --eval "(add-to-list 'load-path \"$(pwd)/ox-hugo\")" \
           --eval "(require 'org)" \
-          --eval "(require 'ox-hugo)"
+          --eval "(require 'ox-hugo)" \
           --find-file "content-org/website.org" \
           --eval "(org-hugo-export-wim-to-md :all-subtrees)"
 
