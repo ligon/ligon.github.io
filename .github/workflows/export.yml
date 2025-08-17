@@ -48,7 +48,7 @@ jobs:
           --eval "(unless (package-installed-p 'ox-hugo) (package-refresh-contents) (package-install 'ox-hugo))" \
           --eval "(require 'org)" \
           --eval "(require 'ox-hugo)" \
-          --find-file "org/website.org" \
+          --find-file "content-org/website.org" \
           --eval "(org-hugo-export-wim-to-md :all-subtrees)"
 
     - name: Build Hugo site
