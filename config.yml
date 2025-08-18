@@ -1,4 +1,4 @@
-baseURL: "https://ligon.github.io/web/"
+baseURL: "https://ligon.github.io/"
 #relativeURLs: true
 canonifyURLs: true
 title: Ethan Ligon
