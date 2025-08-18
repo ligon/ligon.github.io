@@ -16,7 +16,7 @@ taxonomies:
 params:
     description: "This website hosts material related to Ethan Ligon's research papers, course materials, data, curriculum vitae, and contact information."
     author: Ethan Ligon
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-SJQ9VEHFN1"
     math: true
     hideFooter: true
     MainSections: ["papers",]
