@@ -49,16 +49,18 @@ params:
           url: https://scholar.google.com/citations?user=jRwNfxwAAAAJ
         - name: GitHub
           url: https://github.com/ligon
+        - name: ORCID
+          url: https://orcid.org/0000-0003-4928-0616
 
           # Other socialIcons relevant (`grep themes/PaperMod/layouts/partials/svg.html`)
           # signal pgpkey orcid strava orcid researchgate spotify wiki
 
 
     assets:
-        favicon: "/favicon.ico"
-        favicon16x16: "/favicon-16x16.png"
-        favicon32x32: "/favicon-32x32.png"
-        apple_touch_icon: "/apple-touch-icon.png"
+        favicon: "assets/favicon.ico"
+        favicon16x16: "assets/favicon-16x16.png"
+        favicon32x32: "assets/favicon-32x32.png"
+        apple_touch_icon: "assets/apple-touch-icon.png"
     cover:
         hiddenInList: false
         hiddenInSingle: true
