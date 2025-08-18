@@ -1,14 +1,26 @@
 baseURL: "https://ligon.github.io/"
 #relativeURLs: true
-canonifyURLs: true
+#canonifyURLs: true
 title: Ethan Ligon
 theme: PaperMod
 languageCode: en-us
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
 params:
     description: "This website hosts material related to Ethan Ligon's research papers, course materials, data, curriculum vitae, and contact information."
     author: Ethan Ligon
+    # googleAnalyticsID: "G-XXXXX"
     math: true
+    hideFooter: true
+    MainSections: ["papers",]
+
     profileMode:
           enabled: true
           title: Ethan Ligon
@@ -44,6 +56,14 @@ params:
         favicon16x16: "/favicon-16x16.png"
         favicon32x32: "/favicon-32x32.png"
         apple_touch_icon: "/apple-touch-icon.png"
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Ethan Ligon"
+      icon: favicon.ico
+      iconHeight: 18
+
 
 markup:
     goldmark:
