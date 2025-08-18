@@ -51,11 +51,11 @@ Schedule and location for Professor Ethan Ligon's office hours.
 
 ***  Schedule
 
-Office hours take place on Wednesday at 10am.
+Please [[https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2fvCrwpslnNUZZplWSlaBWpHt005NSa0VS3tcAeLvpptddBdCpuxWkCMIGSI1g9npiUPeire4I][book an appointment]].  If no appointment slots are available, don't hesitate to email me ([[mailto:ligon@berkeley.edu][ligon@berkeley.edu]]).
 
 *** Location
 
-By default meetings are in my office in Giannini 213. I am also available for virtual meetings on Zoom.
+By default meetings are in my office in Giannini 213. I am also available for virtual meetings on google meetings (preferred) or zoom.
 
 *** Meeting material
 - If we are meeting to discuss research, please send me a written description of the work that you would like to discuss.  I can be much more useful to you if I have time to read and reflect.
@@ -122,7 +122,7 @@ Efficient risk-sharing implies a simple factor structure for marginal utilities 
 
 ** Credit and Welfare Across the Lean Season :Nigeria:Credit:Maize:Seasonality:MUEs:Post_harvest_loans:MUEs:
 :PROPERTIES:
-:export_hugo_bundle: ligon-silver25
+:export_hugo_bundle: papers/ligon-silver25
 :EXPORT_FILE_NAME: index
 :ID:       d1f24bca-c1e4-4b6f-822d-903565a054b5
 :EXPORT_DATE: <2025-07-14 Mon>
