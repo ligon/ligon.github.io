@@ -50,6 +50,9 @@ params:
         - name: GitHub
           url: https://github.com/ligon
 
+          # Other socialIcons relevant (`grep themes/PaperMod/layouts/partials/svg.html`)
+          # signal pgpkey orcid strava orcid researchgate spotify wiki
+
 
     assets:
         favicon: "/favicon.ico"
