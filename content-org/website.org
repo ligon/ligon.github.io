@@ -123,7 +123,7 @@ Efficient risk-sharing implies a simple factor structure for marginal utilities 
 ** Credit and Welfare Across the Lean Season :Nigeria:Credit:Maize:Seasonality:MUEs:Post_harvest_loans:MUEs:
 :PROPERTIES:
 :export_hugo_bundle: ligon-silver25
-:EXPORT_FILE_NAME: papers/index
+:EXPORT_FILE_NAME: index
 :ID:       d1f24bca-c1e4-4b6f-822d-903565a054b5
 :EXPORT_DATE: <2025-07-14 Mon>
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/taimaka.png") (alt . "Credit during the lean season in Nigeria") (relative . t))
