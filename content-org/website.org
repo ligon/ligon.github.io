@@ -53,7 +53,7 @@ Schedule and location for Professor Ethan Ligon's office hours.
 
 ***  Schedule
 
-Please [[https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2fvCrwpslnNUZZplWSlaBWpHt005NSa0VS3tcAeLvpptddBdCpuxWkCMIGSI1g9npiUPeire4I][book an appointment]].  If no appointment slots are available, don't hesitate to email me ([[mailto:ligon@berkeley.edu][ligon@berkeley.edu]]).
+Please book an appointment below.  If no appointment slots are available, don't hesitate to email me ([[mailto:ligon@berkeley.edu][ligon@berkeley.edu]]).
 
 #+begin_export html
 <!-- Google Calendar Appointment Scheduling begin -->
