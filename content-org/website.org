@@ -506,7 +506,201 @@ Efficient risk sharing implies that consumption allocations depend only on aggre
   number	= 4,
   pages		= {847--864}
 }
-#+end_src** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:
+#+end_src
+
+** Poverty and the Welfare Costs of Risk Associated with Globalization :Poverty:Risk_sharing:Welfare:Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon06
+:EXPORT_FILE_NAME: index
+:ID:       15c3d6f1-adf6-4421-b24d-01f658807fca
+:EXPORT_DATE: <2006-08-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon06.png") (alt . "Poverty and welfare costs of risk from globalization") (relative . t))
+:END:
+
+#+begin_description
+Uses 50 years of Lorenz curve data to measure the welfare costs of risk borne by poor households and whether globalization increases that risk.
+#+end_description
+
+[[/images/ligon06.png]]
+
+#+begin_summary
+Poorer households grow faster on average but bear much more risk.  Using Lorenz curve data from 53 countries over 50 years, we find no evidence that this greater risk is related to globalization.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1016/j.worlddev.2005.10.013][Paper]]
+*** Abstract
+"Globalization" implies change, and uncertainty over future change may affect household welfare. We use 50 years of Lorenz curve data from 53 mostly developing countries. Treating each country-quintile-year combination as an observation, we first account for variation in consumption expenditures, finding that global shocks matter less than country-level shocks in explaining consumption growth variation. While poorer households experience faster consumption growth than wealthier ones, they also face significantly more risk. However, we find no evidence linking this greater risk to globalization.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon06,
+  author	= {Ethan Ligon},
+  title		= {Poverty and the Welfare Costs of Risk Associated with
+		  Globalization},
+  journal	= {World Development},
+  year		= 2006,
+  volume	= 34,
+  number	= 8,
+  pages		= {1446--1457},
+  doi		= {10.1016/j.worlddev.2005.10.013}
+}
+#+end_src
+
+** Formal Markets and Informal Insurance :Risk_sharing:Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon05
+:EXPORT_FILE_NAME: index
+:ID:       3a546ada-68d9-4ca7-87bf-0df4535b3d4e
+:EXPORT_DATE: <2005-03-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon05.png") (alt . "Formal markets and informal insurance") (relative . t))
+:END:
+
+#+begin_description
+Examines how the introduction of formal credit markets may undermine informal insurance arrangements in developing-country villages.
+#+end_description
+
+[[/images/ligon05.png]]
+
+#+begin_summary
+Can modern credit markets crowd out informal insurance?  Using data from an Indian village in transition, we find that "traditional" households exchange more in-kind transfers, while "modern" households rely more on formal markets.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1016/j.irle.2004.06.005][Paper]]
+*** Abstract
+Contractual interlinkages in rural developing communities may provide informal insurance when information is incomplete, potentially shaping resource distribution. The introduction of modern credit markets might undermine these informal arrangements, reducing their effectiveness as insurance. Using data from a transitional Indian village comparing households operating under "modern" and "traditional" regimes, we find that traditional households receive more frequent in-kind food and clothing transfers while making more frequent in-kind crop output payments to others.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon05,
+  author	= {Ethan Ligon},
+  title		= {Formal Markets and Informal Insurance},
+  journal	= {International Review of Law and Economics},
+  year		= 2005,
+  volume	= 25,
+  number	= 1,
+  pages		= {75--88},
+  doi		= {10.1016/j.irle.2004.06.005}
+}
+#+end_src
+
+** Measuring Vulnerability :Welfare:Poverty:Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-schechter03
+:EXPORT_FILE_NAME: index
+:ID:       b813029e-6c50-4d79-b5d6-cb368ae59592
+:EXPORT_DATE: <2003-03-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-schechter03.png") (alt . "Measuring vulnerability to poverty and risk") (relative . t))
+:END:
+
+#+begin_description
+Constructs a measure of vulnerability that decomposes welfare losses into components due to poverty, aggregate risk, and idiosyncratic risk.
+#+end_description
+
+[[/images/ligon-schechter03.png]]
+
+#+begin_summary
+Standard poverty measures miss the welfare costs of risk.  We construct a vulnerability measure that decomposes welfare losses into poverty and risk components, and find they play roughly equal roles in Bulgaria.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1111/1468-0297.00117][Paper]]
+*** Abstract
+We construct a measure of vulnerability which permits us to decompose the welfare loss associated with living in a risky environment. This decomposition lets us separately measure the welfare loss due to poverty and the welfare loss due to risk from different sources. Applying this decomposition to a panel dataset from Bulgaria, we find that poverty and risk play roughly equal roles in reducing welfare. Aggregate shocks are more important than idiosyncratic sources of risk, but households headed by an employed, educated male are less vulnerable to aggregate shocks than are other households.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-schechter03,
+  author	= {Ethan Ligon and Laura Schechter},
+  title		= {Measuring Vulnerability},
+  journal	= {Economic Journal},
+  year		= 2003,
+  volume	= 113,
+  number	= 486,
+  pages		= {C95--C102},
+  doi		= {10.1111/1468-0297.00117}
+}
+#+end_src
+
+** Economic Distance and Cross-Country Spillovers :Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/conley-ligon02
+:EXPORT_FILE_NAME: index
+:ID:       e5fcfc5f-de91-42fd-af50-409201577456
+:EXPORT_DATE: <2002-06-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/conley-ligon02.png") (alt . "Economic distance and cross-country growth spillovers") (relative . t))
+:END:
+
+#+begin_description
+Estimates the magnitude of cross-country growth spillovers using a novel measure of economic distance between nations.
+#+end_description
+
+[[/images/conley-ligon02.png]]
+
+#+begin_summary
+Growth rates are not independent across countries.  We use a novel measure of economic distance to estimate cross-country spillovers, and find they rival countries' own characteristics in explaining growth patterns.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1023/A:1015676113101][Paper]]
+*** Abstract
+Rates of long-run economic growth are not independent across countries. To account for this dependence we decompose the spatial covariance function of growth rates into a function of each country's own observable characteristics, its unobservable characteristics, and cross-country spillovers. We use original data on economic distance to structure observed variation in countries' long term growth rates. We use this structure to estimate the magnitude of economic interdependence among nations, and to give a nonparametric characterization of the relationship between economic distance and the magnitude of cross-country spillovers. These spillovers turn out to be quite important, accounting for more of the spatial covariance in growth rates than unobservable variables, and by some measures rivalling the importance of the country's own observable characteristics.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  conley-ligon02,
+  author	= {Timothy G. Conley and Ethan Ligon},
+  title		= {Economic Distance and Cross-Country Spillovers},
+  journal	= {Journal of Economic Growth},
+  year		= 2002,
+  volume	= 7,
+  number	= 2,
+  pages		= {157--187},
+  doi		= {10.1023/A:1015676113101}
+}
+#+end_src
+
+** Mutual Insurance, Individual Savings, and Limited Commitment :Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-thomas-worrall00
+:EXPORT_FILE_NAME: index
+:ID:       3b7cc963-c48f-4d79-9413-7e7217943386
+:EXPORT_DATE: <2000-04-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-thomas-worrall00.png") (alt . "Mutual insurance with savings and limited commitment") (relative . t))
+:END:
+
+#+begin_description
+Examines how the availability of individual savings interacts with informal mutual insurance when commitment is limited.
+#+end_description
+
+[[/images/ligon-thomas-worrall00.png]]
+
+#+begin_summary
+When households can both save individually and insure informally, how do the two interact?  We show that an enhanced storage technology can either improve or diminish welfare, and that ex ante transfers are replaced by differential storage.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1006/redy.1999.0081][Paper]]
+*** Abstract
+We examine a dynamic model of mutual insurance when households can also engage in self-insurance by storage, assuming there is no enforcement mechanism so that any insurance is informal and must be self-enforcing. We show that consumption allocations satisfy a modified Euler condition and that an enhanced storage technology can either improve or diminish welfare. We also show that ex ante transfers introduced into dynamic informal insurance models are only used in the first period, with the role of ex ante transfers being replaced by differential individual storage.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-thomas-worrall00,
+  author	= {Ethan Ligon and Jonathan P. Thomas and Tim Worrall},
+  title		= {Mutual Insurance, Individual Savings, and Limited
+		  Commitment},
+  journal	= {Review of Economic Dynamics},
+  year		= 2000,
+  volume	= 3,
+  number	= 2,
+  pages		= {216--246},
+  doi		= {10.1006/redy.1999.0081}
+}
+#+end_src
+
+** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-thomas-worrall02
 :EXPORT_FILE_NAME: index
