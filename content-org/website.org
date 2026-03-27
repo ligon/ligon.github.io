@@ -233,6 +233,46 @@ We propose an alternative benchmark for evaluating the targeting accuracy of soc
 }
 #+end_src
 
+** Spatial Procurement of Farm Products and the Supply of Processed Foods :Agriculture:Industrial_organization:Food_processing:Tomatoes:
+:PROPERTIES:
+:export_hugo_bundle: papers/hamilton-ligon-shafran24
+:EXPORT_FILE_NAME: index
+:ID:       ba364142-18bd-4ea6-931c-d46e47fdac09
+:EXPORT_DATE: <2024-02-01 Thu>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hamilton-ligon-shafran24.png") (alt . "Spatial procurement in the tomato processing industry") (relative . t))
+:END:
+
+#+begin_description
+Develops a spatial model of farm product procurement by food processors, applied to California's tomato processing industry.
+#+end_description
+
+[[/images/hamilton-ligon-shafran24.png]]
+
+#+begin_summary
+How do transportation costs shape the geography of food processing?  We model spatial procurement by a California tomato processor and estimate how energy prices affect the supply of processed foods.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1007/s11151-023-09939-5][Paper]]
+*** Abstract
+Increased transportation and logistical costs in agricultural markets have affected the spatial allocation of production in the agricultural and food sectors of the economy. We develop a spatial model of farm product procurement by a food processor, designed to capture the effects of supply-chain disruptions on the spatial procurement of farm products in the processed food sector. We use detailed data on production and procurement by a large California tomato processor to estimate the key parameters of the model which allow us to calculate the price elasticity of supply for California tomato paste production and describe how changes in energy prices and transportation costs for primary agricultural products affect the supply of processed food.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hamilton-ligon-shafran24,
+  author	= {Stephen Hamilton and Ethan Ligon and Aric Shafran},
+  title		= {Spatial Procurement of Farm Products and the Supply of
+		  Processed Foods: Application to the Tomato Processing
+		  Industry},
+  journal	= {Review of Industrial Organization},
+  year		= 2024,
+  volume	= 64,
+  number	= 1,
+  pages		= {11--33},
+  doi		= {10.1007/s11151-023-09939-5}
+}
+#+end_src
+
 ** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter12
