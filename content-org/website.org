@@ -63,7 +63,7 @@ Please book an appointment below.  If no appointment slots are available, don't 
 
 *** Location
 
-By default meetings are in my office in Giannini 213. I am also available for virtual meetings on google meetings (preferred) or zoom.
+By default meetings are in my office in Giannini 213. I am also available for virtual meetings on Google Meet (preferred) or Zoom.
 
 *** Meeting material
 - If we are meeting to discuss research, please send me a written description of the work that you would like to discuss.  I can be much more useful to you if I have time to read and reflect.
@@ -93,6 +93,41 @@ Working papers and articles by Ethan Ligon.
 See [[https://scholar.google.com/citations?user=jRwNfxwAAAAJ][google scholar]] for published papers or older working (resting) papers.
 
 * Papers
+** Consumer Demand with Price Aggregators and Low-Rank Cross-Price Effects :Preferences:Cross_price_effects:Separability:Low_rank:Demand:
+:PROPERTIES:
+:export_hugo_bundle: papers/fally-ligon26
+:EXPORT_FILE_NAME: index
+:ID:       a3c7e1f2-9d84-4a3b-b5e1-7f2a8c6d4e90
+:EXPORT_DATE: <2026-03-27 Fri>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/substitution_hero.png") (alt . "Cross-price elasticity heatmap for ready-to-eat cereals") (relative . t))
+:END:
+
+#+begin_description
+Characterizes preferences that rationalize demand systems with price aggregators, providing flexible and tractable forms for estimating consumer demand with many goods.
+#+end_description
+
+[[./static/images/substitution_hero.png]]
+
+#+begin_summary
+Estimating demand for many goods usually means estimating many cross-price effects.  We show that low-rank cross-price structure is equivalent to a small number of "price aggregators," and characterize the preferences behind them.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/6kr0q483][Paper]]
+*** Abstract
+Estimating consumer demands is a bread-and-butter undertaking in applied economics. In general, demand for each good depends on the prices of all goods and services, but for most applications it is impractical to estimate models of such high dimension. In this paper, we consider consumer demand with a low rank of the matrix of cross-price effects, a property implicitly assumed in most empirical settings. First, we show that imposing a low rank is equivalent to introducing functions that we call "aggregators", where each aggregator maps information from an arbitrarily large vector of prices (and perhaps income) into a scalar. We then provide a complete characterization of the preferences that rationalize demand systems with such aggregators. These results can be used to derive new and flexible forms of demand that can be tailored to applications in various fields of economics. Most commonly-used demand systems (including directly-additive, indirectly-additive, non-homothetic CES and Kimball preferences) can be described with one or two aggregators where the price index may coincide with one of the aggregators. Nested and mixed logit require as many aggregators as nests or consumer types. Aggregators can also be naturally expressed as a function of observed product attributes. Using barcode data on purchases of ready-to-eat cereals, we illustrate how to estimate a simple yet flexible specification of such a demand system with K aggregators, with or without using information on product attributes.
+*** BibTeX
+
+#+begin_src bibtex
+@Unpublished{	  fally-ligon26,
+  author	= {Thibault Fally and Ethan Ligon},
+  title		= {Consumer Demand with Price Aggregators and Low-Rank
+		  Cross-Price Effects},
+  year		= 2026,
+  url		= {https://escholarship.org/uc/item/6kr0q483}
+}
+#+end_src
+
 ** Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda :Uganda:Drought:Floods:Pests:MUEs:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon25
@@ -109,7 +144,7 @@ Devises new methods to compute households' marginal utilities of expenditure bas
 [[./static/images/risk-sharing.png]]
 
 #+begin_summary
-"Covariate" shocks such as droughts or floods affect may affect everyone, but not everyone is affected equally.  We devise ways to test the extent to which the effects of these shocks are shared.
+"Covariate" shocks such as droughts or floods may affect everyone, but not everyone is affected equally.  We devise ways to test the extent to which the effects of these shocks are shared.
 #+end_summary
 
 *** Download
@@ -128,12 +163,12 @@ Efficient risk-sharing implies a simple factor structure for marginal utilities 
 }
 #+end_src
 
-** Credit and Welfare Across the Lean Season :Nigeria:Credit:Maize:Seasonality:MUEs:Post_harvest_loans:MUEs:
+** Credit and Welfare Across the Lean Season :Nigeria:Credit:Maize:Seasonality:MUEs:Post_harvest_loans:
 :PROPERTIES:
-:export_hugo_bundle: papers/ligon-silver25
+:export_hugo_bundle: papers/ligon-silver26
 :EXPORT_FILE_NAME: index
-:ID:       d1f24bca-c1e4-4b6f-822d-903565a054b5
-:EXPORT_DATE: <2025-07-14 Mon>
+:ID:       7fd58773-0994-4468-bf4b-0d92e3449919
+:EXPORT_DATE: <2026-03-27 Fri>
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/taimaka.png") (alt . "Credit during the lean season in Nigeria") (relative . t))
 :END:
 
@@ -150,13 +185,12 @@ The agricultural season naturally induces seasonal variation to prices for thing
 *** Download
 - [[https://escholarship.org/uc/item/81k9j2q0][Paper]]
 *** Abstract
-Consumption in rural areas of low-income countries is often highly variable across seasons.  What drives this seasonality, and can the welfare of households across the "lean season" be improved via the provision of credit?  We measure prices and consumption for farm-households across seasons in Gombe, Nigeria, and at the same time elicit information about farmers' intertemporal marginal rates of substitution by offering them one-month bonds with different rates of return.  Against this background, we also implement a randomized post-harvest loan (PHL) program, which provides credit---up to a generous ceiling---at a subsidized interest rate.   Farmers randomly offered the loan almost universally borrow the maximum amount.  In this experiment, we find that treated farmers store more grain.  This is a risky investment, and in the year of our experiment it did not pay off, as maize prices did not increase following the harvest.  Given this, it is unsurprising that we find no significant effects of the loan on consumption, investment or welfare---using the PHL to make a leveraged bet on maize prices going up was bad investment /ex post/.  Was it a bad investment /ex ante/?  This depends on whether lean seasons are due to poorly functioning financial markets in Gombe, or because markets in Gombe are poorly integrated with the broader market.  We adapt tools from the asset pricing literature to our data to test the null of well-functioning local financial markets in Gombe. We fail to reject this null hypothesis, suggesting that promoting spatial integration may improve lean-season welfare more than the local provision of credit would.
-
+Consumption expenditures in rural areas of low-income countries are highly variable across seasons, yet the literature still lacks a standard framework for asking whether seasonal poverty reflects local credit market failure or poor integration with the broader economy. We develop an intertemporal model of farmers' portfolio choices under seasonal price risk and borrowing constraints, and derive a sign diagnostic: The amount a farmer is willing to pay for a small risk-free bond (call this price q) must rise in response to a positive income shock if credit constraints bind, but fall if precautionary motives dominate. We apply this framework to a randomized post-harvest loan program in Gombe, Nigeria, and supplement the experiment by also collecting high-frequency data on prices, stocks, and expenditures. The loan sharply reduces the marginal utility of expenditure around delivery, but q never rises over the full follow-up. Precautionary savings, not credit constraints, govern the intertemporal allocation. Receipt of the loan leads to a portfolio rebalancing, as farmers adjust their grain stores, and increase investment. But maize prices increase little after harvest and season-average consumption expenditure effects are small, though the MUE---a more sensitive welfare measure---detects a large and significant improvement around delivery that expenditures miss. We fail to reject the null of well-functioning local financial markets. The binding constraint is poor spatial integration rather than inefficient local allocation---promoting market integration may improve lean-season welfare more than would the local provision of credit.
 *** BibTeX
 #+begin_src bibtex
-@Unpublished{ligon-silver25,
+@Unpublished{ligon-silver26,
   author          = {Ethan Ligon and Jedidiah Silver},
   title           = {Credit and Welfare Across the Lean Season},
-  year = 2025,
+  year = 2026,
   url          = {https://escholarship.org/uc/item/81k9j2q0}}
 #+end_src
