@@ -41,6 +41,8 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:ligon@berkeley.edu
+        - name: pgpkey
+          url: ligon-public.asc
         - name: Location
           url: location/
         - name: Office Hours
