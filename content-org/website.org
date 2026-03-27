@@ -194,3 +194,158 @@ Consumption expenditures in rural areas of low-income countries are highly varia
   year = 2026,
   url          = {https://escholarship.org/uc/item/81k9j2q0}}
 #+end_src
+
+** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-schechter12
+:EXPORT_FILE_NAME: index
+:ID:       02313d14-2857-40ff-a49a-9d5dc42027fb
+:EXPORT_DATE: <2012-09-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-schechter12.png") (alt . "Village social network with nodes and edges representing sharing motives") (relative . t))
+:END:
+
+#+begin_description
+Uses variants of dictator games to decompose motives for sharing in Paraguayan villages into directed altruism, reciprocity, and sanctions.
+#+end_description
+
+[[/images/ligon-schechter12.png]]
+
+#+begin_summary
+What motivates people in rural villages to share---altruism, reciprocity, or fear of sanctions?  We use dictator game variants to measure each motive, and find that reciprocity best predicts real-world gift-giving.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1016/j.jdeveco.2011.12.002][Paper]]
+*** Abstract
+What motivates people in rural villages to share? We first elicit a baseline level of sharing using a standard, anonymous dictator game. Then using variants of the dictator game that allow for either revealing the dictator's identity or allowing the dictator to choose the recipient, we attribute variation in sharing to three different motives. The first of these, directed altruism, is related to preferences, while the remaining two are incentive-related (sanctions and reciprocity). We observe high average levels of sharing in our baseline treatment, while variation across individuals depends importantly on the incentive-related motives. Finally, variation in measured reciprocity within the experiment predicts observed 'real-world' gift-giving, while other motives measured in the experiment do not predict behavior outside the experiment.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-schechter12,
+  author	= {Ethan Ligon and Laura Schechter},
+  title		= {Motives for Sharing in Social Networks},
+  journal	= {Journal of Development Economics},
+  year		= 2012,
+  volume	= 99,
+  number	= 1,
+  pages		= {13--26},
+  doi		= {10.1016/j.jdeveco.2011.12.002}
+}
+#+end_src
+
+** Structural Experimentation to Distinguish between Models of Risk Sharing with Frictions in Rural Paraguay :Risk_sharing:Experiments:Paraguay:Limited_commitment:Moral_hazard:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-schechter20
+:EXPORT_FILE_NAME: index
+:ID:       b28fe150-640f-4ef2-87e8-f482883bc128
+:EXPORT_DATE: <2020-10-01 Thu>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-schechter20.png") (alt . "Hands holding umbrella and shields representing risk sharing") (relative . t))
+:END:
+
+#+begin_description
+Uses dictator-type games in rural Paraguay to distinguish between models of risk sharing with limited commitment, moral hazard, and hidden income.
+#+end_description
+
+[[/images/ligon-schechter20.png]]
+
+#+begin_summary
+What stops villagers from sharing risk efficiently---limited commitment, moral hazard, or hidden income?  We design lab experiments in rural Paraguay whose predictions differ across models, and find that no single friction explains all villages.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1086/702793][Paper]]
+*** Abstract
+We conduct dictator-type games in rural Paraguay with different treatments that manipulate players' information and choice sets. From individuals' choices in the games, we draw inferences regarding impediments to efficient risk sharing in the larger village supergame. Outcomes from the experimental games suggest that players in most villages are reacting to the kinds of incentives that would be predicted from a private information model with hidden investments, while in others players act in a manner consistent with the predictions of a model with limited commitment. No single one of our models can explain outcomes in all villages, but outcomes in nearly every village are consistent with one or more of our models.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-schechter20,
+  author	= {Ethan Ligon and Laura Schechter},
+  title		= {Structural Experimentation to Distinguish between Models
+		  of Risk Sharing with Frictions in Rural {Paraguay}},
+  journal	= {Economic Development and Cultural Change},
+  year		= 2020,
+  volume	= 69,
+  number	= 1,
+  pages		= {1--50},
+  doi		= {10.1086/702793}
+}
+#+end_src
+
+** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:Limited_commitment:Insurance:Village_economies:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-thomas-worrall02
+:EXPORT_FILE_NAME: index
+:ID:       df5c866a-6b28-4fe8-922e-420da771ffe3
+:EXPORT_DATE: <2002-01-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-thomas-worrall02.png") (alt . "Dependence of sustainable risk-sharing intervals on the discount factor") (relative . t))
+:END:
+
+#+begin_description
+Characterises efficient informal insurance arrangements constrained by limited commitment, and tests the model using data from three Indian villages.
+#+end_description
+
+[[/images/ligon-thomas-worrall02.png]]
+
+#+begin_summary
+Why don't villagers fully pool risk?  We show that limited commitment---the option to walk away---constrains informal insurance, and test the model with ICRISAT village data from India.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1111/1467-937X.00204][Paper]]
+*** Abstract
+Recent work on consumption allocations in village economies finds that idiosyncratic variation in consumption is systematically related to idiosyncratic variation in income, thus rejecting the hypothesis of full risk-pooling. We attempt to explain these observations by adding limited commitment as an impediment to risk-pooling. We provide a general dynamic model and completely characterise efficient informal insurance arrangements constrained by limited commitment, and test the model using data from three Indian villages. We find that the model can fully explain the dynamic response of consumption to income, but that it fails to explain the distribution of consumption across households.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-thomas-worrall02,
+  author	= {Ethan Ligon and Jonathan P. Thomas and Tim Worrall},
+  title		= {Informal Insurance Arrangements with Limited Commitment:
+		  Theory and Evidence from Village Economies},
+  journal	= {Review of Economic Studies},
+  year		= 2002,
+  volume	= 69,
+  number	= 1,
+  pages		= {209--244},
+  doi		= {10.1111/1467-937X.00204}
+}
+#+end_src
+
+** Estimating the Relative Benefits of Agricultural Growth on the Distribution of Expenditures :Agriculture:Poverty:Growth:Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-sadoulet18
+:EXPORT_FILE_NAME: index
+:ID:       c2ec5407-7a71-4f70-9b54-4388e41dcd0c
+:EXPORT_DATE: <2018-09-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-sadoulet18.png") (alt . "Expenditure gains by decile from agricultural vs non-agricultural growth") (relative . t))
+:END:
+
+#+begin_description
+Estimates the relative benefits of agricultural versus non-agricultural GDP growth on household expenditures across the income distribution.
+#+end_description
+
+[[/images/ligon-sadoulet18.png]]
+
+#+begin_summary
+GDP growth originating in agriculture benefits poorer households 3--4 times more than equivalent growth from non-agriculture.  An earlier version of this result was featured in the World Development Report 2008.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/3zh92962][Paper]]
+*** Abstract
+Does the sectoral composition of aggregate economic growth affect poverty? We ask whether agricultural growth in developing countries increases the expenditures of poorer households more than growth in other sectors. While some reduced form analyses have tackled this question using either country-level time series data, regional panel data for one country, or cross-sectional country data, this paper is unusual in using panel data for many countries. We improve on much of the existing literature by devising an instrumental variables strategy to correct for the endogeneity of sectoral GDP growth, involving averaging over sectoral income growth rates for neighboring countries. Our principal finding from our instrumental variable estimator is that the estimated elasticities associated with growth in agricultural income are significantly greater than for non-agricultural income for all but the extreme top and bottom deciles. In the middle range of the income distribution the effect of a given GDP growth due to agriculture is 3--4 times larger than if it was due to non-agricultural activities. Having established that on average growth in GDP originating in agriculture is more beneficial for poorer deciles, we finally explore whether this is a pattern which holds across different groupings of countries. A second important finding is that there is heterogeneity across some groupings. Most particularly, we find that it is the poorest people in the poorest countries for whom agricultural income growth is the most beneficial.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-sadoulet18,
+  author	= {Ethan Ligon and Elisabeth Sadoulet},
+  title		= {Estimating the Relative Benefits of Agricultural Growth
+		  on the Distribution of Expenditures},
+  journal	= {World Development},
+  year		= 2018,
+  volume	= 109,
+  pages		= {417--428},
+  doi		= {10.1016/j.worlddev.2016.12.007},
+  url		= {https://escholarship.org/uc/item/3zh92962}
+}
+#+end_src
