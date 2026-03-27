@@ -93,7 +93,7 @@ Working papers and articles by Ethan Ligon.
 See [[https://scholar.google.com/citations?user=jRwNfxwAAAAJ][google scholar]] for published papers or older working (resting) papers.
 
 * Papers
-** Consumer Demand with Price Aggregators and Low-Rank Cross-Price Effects :Demand:Agriculture:
+** Consumer Demand with Price Aggregators and Low-Rank Cross-Price Effects :Demand:Agriculture:MUE:
 :PROPERTIES:
 :export_hugo_bundle: papers/fally-ligon26
 :EXPORT_FILE_NAME: index
@@ -128,7 +128,7 @@ Estimating consumer demands is a bread-and-butter undertaking in applied economi
 }
 #+end_src
 
-** Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda :Risk_sharing:Welfare:Poverty:Agriculture:
+** Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda :Risk_sharing:Welfare:Poverty:Agriculture:MUE:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon25
 :EXPORT_FILE_NAME: index
@@ -163,7 +163,7 @@ Efficient risk-sharing implies a simple factor structure for marginal utilities 
 }
 #+end_src
 
-** Credit and Welfare Across the Lean Season :Welfare:Experiments:Agriculture:
+** Credit and Welfare Across the Lean Season :Welfare:Experiments:Agriculture:MUE:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-silver26
 :EXPORT_FILE_NAME: index
@@ -195,7 +195,7 @@ Consumption expenditures in rural areas of low-income countries are highly varia
   url          = {https://escholarship.org/uc/item/81k9j2q0}}
 #+end_src
 
-** Assessing Targeting Performance: The Case of Ghana's LEAP Program :Poverty:Welfare:Development:
+** Assessing Targeting Performance: The Case of Ghana's LEAP Program :Poverty:Welfare:Development:MUE:
 :PROPERTIES:
 :export_hugo_bundle: papers/trachtman-ligon25
 :EXPORT_FILE_NAME: index
@@ -273,7 +273,7 @@ Increased transportation and logistical costs in agricultural markets have affec
 }
 #+end_src
 
-** Consumption Subaggregates Should Not Be Used to Measure Poverty :Poverty:Welfare:Demand:
+** Consumption Subaggregates Should Not Be Used to Measure Poverty :Poverty:Welfare:Demand:MUE:
 :PROPERTIES:
 :export_hugo_bundle: papers/christiaensen-ligon-sohnesen22
 :EXPORT_FILE_NAME: index
@@ -390,6 +390,83 @@ The availability of digital payment technologies has rapidly increased in the de
   number	= 7,
   pages		= {e0219450},
   doi		= {10.1371/journal.pone.0219450}
+}
+#+end_src
+
+** All \lambda-Separable Demands and Rationalizing Utility Functions :Demand:MUE:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon16a
+:EXPORT_FILE_NAME: index
+:ID:       ff8b29e1-7e6e-486f-8ca8-1b466b9ab862
+:EXPORT_DATE: <2016-10-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon16a.png") (alt . "Lambda-separable demands and utility functions") (relative . t))
+:END:
+
+#+begin_description
+Completely characterizes all Frisch demand systems that are separable in the budget-constraint multiplier, and the utility functions that rationalize them.
+#+end_description
+
+[[/images/ligon16a.png]]
+
+#+begin_summary
+Frisch demands that are separable in the budget multiplier $\lambda$ turn out to have a surprisingly simple structure.  We give a complete characterization: quantities are $\lambda$-separable iff utility is additively separable.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1016/j.econlet.2016.08.010][Paper]]
+*** Abstract
+Frisch demands depend on prices and a multiplier $\lambda$ associated with the consumer's budget constraint. Subject only to standard, modest, regularity conditions, we provide a complete characterization of all Frisch demand systems and of the utility functions that rationalize these demand systems when either quantities demanded or consumption expenditures are separable in $\lambda$. Quantities demanded are $\lambda$-separable if and only if the rationalizing utility function is additively separable in these quantities. In contrast, expenditures are $\lambda$-separable if and only if marginal utilities for these expenditures belong to one of two simple parametric families.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon16a,
+  author	= {Ethan Ligon},
+  title		= {All $\lambda$-Separable Demands and Rationalizing Utility
+		  Functions},
+  journal	= {Economics Letters},
+  year		= 2016,
+  volume	= 147,
+  pages		= {16--18},
+  doi		= {10.1016/j.econlet.2016.08.010}
+}
+#+end_src
+
+** Some \lambda-Separable Frisch Demands with Utility Functions :Demand:MUE:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon16b
+:EXPORT_FILE_NAME: index
+:ID:       94cd2ecd-866a-4707-941e-6a32272446ca
+:EXPORT_DATE: <2016-01-01 Fri>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon16b.png") (alt . "Lambda-separable Frisch demands with utility functions") (relative . t))
+:END:
+
+#+begin_description
+Provides closed-form utility functions for several families of lambda-separable Frisch demands used in applied work.
+#+end_description
+
+[[/images/ligon16b.png]]
+
+#+begin_summary
+Many applied demand models assume $\lambda$-separability without checking that a rationalizing utility function exists.  We provide closed-form utility functions for several common families.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/1s06c2zp][Paper]]
+*** Abstract
+Many commonly used demand systems in applied economics assume that demands are separable in the multiplier $\lambda$ on the consumer's budget constraint. We provide closed-form expressions for the utility functions that rationalize several important families of $\lambda$-separable Frisch demand systems, including demands that are affine in $\lambda$ and demands with constant expenditure elasticities.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon16b,
+  author	= {Ethan Ligon},
+  title		= {Some $\lambda$-Separable Frisch Demands with Utility
+		  Functions},
+  journal	= {Economics Bulletin},
+  year		= 2016,
+  volume	= 36,
+  number	= 1,
+  pages		= {A8},
+  url		= {https://escholarship.org/uc/item/1s06c2zp}
 }
 #+end_src
 
