@@ -195,6 +195,44 @@ Consumption expenditures in rural areas of low-income countries are highly varia
   url          = {https://escholarship.org/uc/item/81k9j2q0}}
 #+end_src
 
+** Assessing Targeting Performance: The Case of Ghana's LEAP Program :Targeting:Poverty:Ghana:Social_protection:
+:PROPERTIES:
+:export_hugo_bundle: papers/trachtman-ligon25
+:EXPORT_FILE_NAME: index
+:ID:       5c651b17-7d27-46ad-a6e5-e5bcfd566338
+:EXPORT_DATE: <2025-01-01 Wed>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/trachtman-ligon25.png") (alt . "Assessing targeting performance in Ghana") (relative . t))
+:END:
+
+#+begin_description
+Evaluates targeting accuracy of Ghana's LEAP social protection program using marginal utility of expenditure as a welfare benchmark.
+#+end_description
+
+[[/images/trachtman-ligon25.png]]
+
+#+begin_summary
+How well do social protection programs reach the poorest?  We assess Ghana's LEAP program and show that community-based targeting may outperform proxy-based methods when evaluated against a marginal-utility benchmark.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/2zk0m608][Paper]]
+*** Abstract
+We propose an alternative benchmark for evaluating the targeting accuracy of social protection programs based on the marginal utility of expenditure. Using this benchmark, we assess the targeting performance of Ghana's Livelihood Empowerment Against Poverty (LEAP) program. We find that community-based targeting may yield more accurate targeting outcomes than proxy-based methods under a marginal-utility benchmark, because the latter better captures the welfare losses from poverty that standard consumption-based measures can miss.
+*** BibTeX
+
+#+begin_src bibtex
+@InCollection{	  trachtman-ligon25,
+  author	= {Carly Trachtman and Ethan Ligon},
+  title		= {Assessing Targeting Performance: The Case of {Ghana's}
+		  {LEAP} Program},
+  booktitle	= {Targeting the Poor},
+  editor	= {Tauhidur Rahman and Fabrizio Felloni and Indran Naidoo},
+  year		= 2025,
+  note		= {In press},
+  url		= {https://escholarship.org/uc/item/2zk0m608}
+}
+#+end_src
+
 ** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter12
