@@ -93,7 +93,7 @@ Working papers and articles by Ethan Ligon.
 See [[https://scholar.google.com/citations?user=jRwNfxwAAAAJ][google scholar]] for published papers or older working (resting) papers.
 
 * Papers
-** Consumer Demand with Price Aggregators and Low-Rank Cross-Price Effects :Preferences:Cross_price_effects:Separability:Low_rank:Demand:
+** Consumer Demand with Price Aggregators and Low-Rank Cross-Price Effects :Demand:Agriculture:
 :PROPERTIES:
 :export_hugo_bundle: papers/fally-ligon26
 :EXPORT_FILE_NAME: index
@@ -128,7 +128,7 @@ Estimating consumer demands is a bread-and-butter undertaking in applied economi
 }
 #+end_src
 
-** Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda :Uganda:Drought:Floods:Pests:MUEs:
+** Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda :Risk_sharing:Welfare:Poverty:Agriculture:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon25
 :EXPORT_FILE_NAME: index
@@ -163,7 +163,7 @@ Efficient risk-sharing implies a simple factor structure for marginal utilities 
 }
 #+end_src
 
-** Credit and Welfare Across the Lean Season :Nigeria:Credit:Maize:Seasonality:MUEs:Post_harvest_loans:
+** Credit and Welfare Across the Lean Season :Welfare:Experiments:Agriculture:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-silver26
 :EXPORT_FILE_NAME: index
@@ -195,7 +195,7 @@ Consumption expenditures in rural areas of low-income countries are highly varia
   url          = {https://escholarship.org/uc/item/81k9j2q0}}
 #+end_src
 
-** Assessing Targeting Performance: The Case of Ghana's LEAP Program :Targeting:Poverty:Ghana:Social_protection:
+** Assessing Targeting Performance: The Case of Ghana's LEAP Program :Poverty:Welfare:Development:
 :PROPERTIES:
 :export_hugo_bundle: papers/trachtman-ligon25
 :EXPORT_FILE_NAME: index
@@ -233,7 +233,7 @@ We propose an alternative benchmark for evaluating the targeting accuracy of soc
 }
 #+end_src
 
-** Spatial Procurement of Farm Products and the Supply of Processed Foods :Agriculture:Industrial_organization:Food_processing:Tomatoes:
+** Spatial Procurement of Farm Products and the Supply of Processed Foods :Agriculture:Development:
 :PROPERTIES:
 :export_hugo_bundle: papers/hamilton-ligon-shafran24
 :EXPORT_FILE_NAME: index
@@ -273,7 +273,7 @@ Increased transportation and logistical costs in agricultural markets have affec
 }
 #+end_src
 
-** Consumption Subaggregates Should Not Be Used to Measure Poverty :Poverty:Welfare:Measurement:Engel_curves:
+** Consumption Subaggregates Should Not Be Used to Measure Poverty :Poverty:Welfare:Demand:
 :PROPERTIES:
 :export_hugo_bundle: papers/christiaensen-ligon-sohnesen22
 :EXPORT_FILE_NAME: index
@@ -313,7 +313,7 @@ Frequent measurement of poverty is challenging because measurement often relies 
 }
 #+end_src
 
-** Inferring Informal Risk-Sharing Regimes: Evidence from Rural Tanzania :Risk_sharing:Tanzania:Self_insurance:Consumption:
+** Inferring Informal Risk-Sharing Regimes: Evidence from Rural Tanzania :Risk_sharing:Demand:Development:
 :PROPERTIES:
 :export_hugo_bundle: papers/li-ligon20
 :EXPORT_FILE_NAME: index
@@ -352,7 +352,7 @@ This paper studies informal risk-sharing regimes in a unified framework by exami
 }
 #+end_src
 
-** What Explains Low Adoption of Digital Payment Technologies? :Digital_payments:India:Financial_inclusion:Technology:
+** What Explains Low Adoption of Digital Payment Technologies? :Development:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-etal19
 :EXPORT_FILE_NAME: index
@@ -393,7 +393,7 @@ The availability of digital payment technologies has rapidly increased in the de
 }
 #+end_src
 
-** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
+** Motives for Sharing in Social Networks :Risk_sharing:Experiments:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter12
 :EXPORT_FILE_NAME: index
@@ -431,7 +431,7 @@ What motivates people in rural villages to share? We first elicit a baseline lev
 }
 #+end_src
 
-** Structural Experimentation to Distinguish between Models of Risk Sharing with Frictions in Rural Paraguay :Risk_sharing:Experiments:Paraguay:Limited_commitment:Moral_hazard:
+** Structural Experimentation to Distinguish between Models of Risk Sharing with Frictions in Rural Paraguay :Risk_sharing:Experiments:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter20
 :EXPORT_FILE_NAME: index
@@ -470,7 +470,7 @@ We conduct dictator-type games in rural Paraguay with different treatments that 
 }
 #+end_src
 
-** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:Limited_commitment:Insurance:Village_economies:
+** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-thomas-worrall02
 :EXPORT_FILE_NAME: index
@@ -509,7 +509,7 @@ Recent work on consumption allocations in village economies finds that idiosyncr
 }
 #+end_src
 
-** Estimating the Relative Benefits of Agricultural Growth on the Distribution of Expenditures :Agriculture:Poverty:Growth:Development:
+** Estimating the Relative Benefits of Agricultural Growth on the Distribution of Expenditures :Agriculture:Poverty:Development:Welfare:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-sadoulet18
 :EXPORT_FILE_NAME: index
