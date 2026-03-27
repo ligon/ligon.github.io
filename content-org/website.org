@@ -313,6 +313,45 @@ Frequent measurement of poverty is challenging because measurement often relies 
 }
 #+end_src
 
+** Inferring Informal Risk-Sharing Regimes: Evidence from Rural Tanzania :Risk_sharing:Tanzania:Self_insurance:Consumption:
+:PROPERTIES:
+:export_hugo_bundle: papers/li-ligon20
+:EXPORT_FILE_NAME: index
+:ID:       783a2494-bb10-4914-8fc5-9be7aa1a8d5c
+:EXPORT_DATE: <2020-09-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/li-ligon20.png") (alt . "Informal risk-sharing regimes in rural Tanzania") (relative . t))
+:END:
+
+#+begin_description
+Exploits the link between interest rates and consumption moments to test alternative risk-sharing models without interest rate data.
+#+end_description
+
+[[/images/li-ligon20.png]]
+
+#+begin_summary
+Which model of risk sharing fits village data---full insurance, limited commitment, or self-insurance?  We devise tests that work without interest rate data and find that Tanzanian villages look like self-insurance.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/50f6t3fh][Paper]]
+*** Abstract
+This paper studies informal risk-sharing regimes in a unified framework by examining intertemporal consumption behavior of rural households in Tanzania. We exploit a theoretically-consistent link between interest rates and cross-sectional consumption moments to test alternative risk-sharing models without requiring data on interest rates or assuming a restriction to eliminate the need for such data, which are often unavailable in developing economies. We specify tests that allow distinguishing among models even with temporal dependence in income shocks. Our analysis shows that the consumption pattern in rural Tanzania is consistent with the self-insurance regime, and that risk aversion varies substantially across districts. Imposing a strict condition on interest rates, as often done in prior literature, misses their intertemporal heterogeneity and biases the estimation of risk aversion.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  li-ligon20,
+  author	= {Zhimin Li and Ethan Ligon},
+  title		= {Inferring Informal Risk-Sharing Regimes: Evidence from
+		  Rural {Tanzania}},
+  journal	= {Journal of Economic Behavior and Organization},
+  year		= 2020,
+  volume	= 177,
+  pages		= {941--955},
+  doi		= {10.1016/j.jebo.2020.05.014},
+  url		= {https://escholarship.org/uc/item/50f6t3fh}
+}
+#+end_src
+
 ** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter12
