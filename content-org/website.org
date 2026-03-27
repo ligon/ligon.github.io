@@ -273,6 +273,46 @@ Increased transportation and logistical costs in agricultural markets have affec
 }
 #+end_src
 
+** Consumption Subaggregates Should Not Be Used to Measure Poverty :Poverty:Welfare:Measurement:Engel_curves:
+:PROPERTIES:
+:export_hugo_bundle: papers/christiaensen-ligon-sohnesen22
+:EXPORT_FILE_NAME: index
+:ID:       a8fbfb4b-b7d2-45ba-87e7-d9668545aaec
+:EXPORT_DATE: <2022-05-01 Sun>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/christiaensen-ligon-sohnesen22.png") (alt . "Consumption subaggregates and poverty measurement") (relative . t))
+:END:
+
+#+begin_description
+Shows that using consumption subaggregates to measure poverty is theoretically unjustified and empirically misleading.
+#+end_description
+
+[[/images/christiaensen-ligon-sohnesen22.png]]
+
+#+begin_summary
+Can we save money on surveys by measuring poverty with a few goods instead of full consumption?  Theory says only if all Engel curves are linear; data from East Africa confirm this shortcut fails in practice.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1093/wber/lhab021][Paper]]
+*** Abstract
+Frequent measurement of poverty is challenging because measurement often relies on complex and expensive expenditure surveys that try to measure expenditures on a comprehensive consumption aggregate. This paper investigates the use of consumption subaggregates instead. The use of consumption subaggregates is theoretically justified if and only if all Engel curves are linear for any realization of prices. This is very stringent. However, it may be possible to empirically identify certain goods that happen to have linear Engel curves given prevailing prices, and when the effect of price changes is small, such a subaggregate might work in practice. We construct such linear subaggregates using data from Rwanda, Tanzania, and Uganda. Our findings show that using subaggregates is ill advised in practice as well as in theory.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  christiaensen-ligon-sohnesen22,
+  author	= {Luc Christiaensen and Ethan Ligon and Thomas Pave
+		  Sohnesen},
+  title		= {Consumption Subaggregates Should Not Be Used to Measure
+		  Poverty},
+  journal	= {World Bank Economic Review},
+  year		= 2022,
+  volume	= 36,
+  number	= 2,
+  pages		= {413--432},
+  doi		= {10.1093/wber/lhab021}
+}
+#+end_src
+
 ** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter12
