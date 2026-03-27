@@ -352,6 +352,47 @@ This paper studies informal risk-sharing regimes in a unified framework by exami
 }
 #+end_src
 
+** What Explains Low Adoption of Digital Payment Technologies? :Digital_payments:India:Financial_inclusion:Technology:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-etal19
+:EXPORT_FILE_NAME: index
+:ID:       72c376e8-c925-41f4-b9cd-880d611f3f9c
+:EXPORT_DATE: <2019-07-31 Wed>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-etal19.png") (alt . "Digital payment adoption among merchants in India") (relative . t))
+:END:
+
+#+begin_description
+Investigates why small-scale merchants in Jaipur, India have low adoption rates for digital payment technologies despite minimal supply-side barriers.
+#+end_description
+
+[[/images/ligon-etal19.png]]
+
+#+begin_summary
+Digital payment infrastructure is cheap and available, yet adoption remains low among Indian merchants.  We find that demand-side factors---not supply-side barriers---explain the gap.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1371/journal.pone.0219450][Paper]]
+*** Abstract
+The availability of digital payment technologies has rapidly increased in the developing world as a cornerstone for financial inclusion. Despite significant efforts to promote digital payments, rates of adoption remain modest in some low-income countries, particularly India. We consider possible reasons for the low rates of adoption among merchants in Jaipur, India with small fixed-location store enterprises. Using survey data for 1,003 merchants, we find little evidence that supply-side barriers to obtaining necessary infrastructure or meeting prerequisite requirements to adopt digital payments explain the low level of adoption. Merchants can readily obtain the necessary infrastructure: 98.6% are feasible adopters, 97% have bank accounts, 79% possess internet-capable devices, and 96% demonstrate technological literacy. 54% already satisfy all requirements, yet only 42% have adopted digital payments. Our evidence suggests that low rates of adoption do not appear to be the result of supply-side barriers, but are due rather to demand-side factors, including insufficient customer demand and concerns that transaction records could increase tax liability.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-etal19,
+  author	= {Ethan Ligon and Badal Malick and Ketki Sheth and Carly
+		  Trachtman},
+  title		= {What Explains Low Adoption of Digital Payment
+		  Technologies? {Evidence} from Small-Scale Merchants in
+		  {Jaipur}, {India}},
+  journal	= {PLoS One},
+  year		= 2019,
+  volume	= 14,
+  number	= 7,
+  pages		= {e0219450},
+  doi		= {10.1371/journal.pone.0219450}
+}
+#+end_src
+
 ** Motives for Sharing in Social Networks :Risk_sharing:Social_networks:Experiments:Altruism:Reciprocity:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-schechter12
