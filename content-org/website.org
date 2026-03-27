@@ -106,7 +106,7 @@ See [[https://scholar.google.com/citations?user=jRwNfxwAAAAJ][google scholar]] f
 Characterizes preferences that rationalize demand systems with price aggregators, providing flexible and tractable forms for estimating consumer demand with many goods.
 #+end_description
 
-[[./static/images/substitution_hero.png]]
+[[/images/substitution_hero.png]]
 
 #+begin_summary
 Estimating demand for many goods usually means estimating many cross-price effects.  We show that low-rank cross-price structure is equivalent to a small number of "price aggregators," and characterize the preferences behind them.
