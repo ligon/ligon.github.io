@@ -508,6 +508,82 @@ Efficient risk sharing implies that consumption allocations depend only on aggre
 }
 #+end_src
 
+** Agricultural Contracts: Data and Research Needs :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/hueth-ligon-dimitri07
+:EXPORT_FILE_NAME: index
+:ID:       da11bac8-63c0-4d33-85a1-afd292ee589f
+:EXPORT_DATE: <2007-12-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hueth-ligon-dimitri07.png") (alt . "Agricultural contracts data and research needs") (relative . t))
+:END:
+
+#+begin_description
+Surveys the landscape of agricultural contracting and identifies data collection priorities for advancing research on contracts in agriculture.
+#+end_description
+
+[[/images/hueth-ligon-dimitri07.png]]
+
+#+begin_summary
+Contracting is pervasive in agriculture, yet systematic data on contract terms remains scarce.  We identify key data gaps and propose a framework for data collection that individual researchers can build on.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1111/j.1467-8276.2007.01096.x][Paper]]
+*** Abstract
+Contracting is widespread in agriculture, yet there is no systematic data collection on the nature and importance of agricultural contracts. We argue that such data collection is needed to build further knowledge and support more specific research projects. Collecting data from individual contracting parties is difficult, but a summary of responses about specific contract characteristics coupled with sectoral descriptions would provide general information that individual researchers can utilize when launching investigations on more specific topics.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hueth-ligon-dimitri07,
+  author	= {Brent Hueth and Ethan Ligon and Carolyn Dimitri},
+  title		= {Agricultural Contracts: Data and Research Needs},
+  journal	= {American Journal of Agricultural Economics},
+  year		= 2007,
+  volume	= 89,
+  number	= 5,
+  pages		= {1276--1281},
+  doi		= {10.1111/j.1467-8276.2007.01096.x}
+}
+#+end_src
+
+** Using Production Data to Design Efficient Contracts :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon04
+:EXPORT_FILE_NAME: index
+:ID:       b3260b00-dbcf-4ec2-aee3-3e5d5ba2ca24
+:EXPORT_DATE: <2004-08-01 Sun>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon04.png") (alt . "Using production data to design efficient contracts") (relative . t))
+:END:
+
+#+begin_description
+Shows how production data can be used to construct optimal contracts for agricultural commodities, applied to California processing tomatoes.
+#+end_description
+
+[[/images/ligon04.png]]
+
+#+begin_summary
+What does an optimal agricultural contract look like?  We show how to use production data to design incentive-compatible contracts, and apply the method to California's processing tomato industry.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1111/j.0002-9092.2004.00636.x][Paper]]
+*** Abstract
+This article shows how available production data can be used to construct the terms of an efficient contract. The approach is applied to the design of a contract for processing tomatoes, a commodity for which a variety of different contractual provisions are used in practice. The analysis yields estimates of the efficient level of incentive intensity, the efficient degree of risk sharing, and the welfare cost of using suboptimal contract terms.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon04,
+  author	= {Ethan Ligon},
+  title		= {Using Production Data to Design Efficient Contracts},
+  journal	= {American Journal of Agricultural Economics},
+  year		= 2004,
+  volume	= 86,
+  number	= 3,
+  pages		= {848--853},
+  doi		= {10.1111/j.0002-9092.2004.00636.x}
+}
+#+end_src
+
 ** Poverty and the Welfare Costs of Risk Associated with Globalization :Poverty:Risk_sharing:Welfare:Development:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon06
@@ -620,6 +696,232 @@ We construct a measure of vulnerability which permits us to decompose the welfar
   number	= 486,
   pages		= {C95--C102},
   doi		= {10.1111/1468-0297.00117}
+}
+#+end_src
+
+** Estimation of an Efficient Tomato Contract :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/hueth-ligon02
+:EXPORT_FILE_NAME: index
+:ID:       60835140-3141-4226-b1ed-7d7a6175d372
+:EXPORT_DATE: <2002-06-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hueth-ligon02.png") (alt . "Estimation of an efficient tomato contract") (relative . t))
+:END:
+
+#+begin_description
+Estimates an agency model of processing tomato contracts, measuring grower risk aversion and the efficiency of existing quality measurement.
+#+end_description
+
+[[/images/hueth-ligon02.png]]
+
+#+begin_summary
+What does an efficient contract between tomato growers and processors look like?  We estimate an agency model and find that existing quality measurement improves efficiency, but information constraints still cost about 1% of mean compensation.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1093/erae/29.2.237][Paper]]
+*** Abstract
+An agency model of contracts used in California's processing-tomato industry is estimated in three stages. We first estimate growers' stochastic production possibilities, and then, for a given vector of preference parameters, compute an optimal compensation schedule. Finally, we compare computed compensations with actual compensations and choose preference parameters to minimise distance between the two. Assuming perfect competition and risk neutrality for processors, we obtain an estimate of 0.08 for growers' measure of constant absolute risk aversion, and find that growers who face higher-powered incentives produce higher levels of soluble solids, at a cost that is 1.8 per cent greater than otherwise. Efficiency losses from information constraints are 1 per cent of mean compensation, whereas existing quality measurement improves efficiency by 1.08 per cent.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hueth-ligon02,
+  author	= {Brent Hueth and Ethan Ligon},
+  title		= {Estimation of an Efficient Tomato Contract},
+  journal	= {European Review of Agricultural Economics},
+  year		= 2002,
+  volume	= 29,
+  number	= 2,
+  pages		= {237--253},
+  doi		= {10.1093/erae/29.2.237}
+}
+#+end_src
+
+** Agricultural Markets as Relative Performance Evaluation :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/hueth-ligon01
+:EXPORT_FILE_NAME: index
+:ID:       d2f70374-5d37-409e-a187-f6adca8a9e33
+:EXPORT_DATE: <2001-05-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hueth-ligon01.png") (alt . "Agricultural markets as relative performance evaluation") (relative . t))
+:END:
+
+#+begin_description
+Shows that agricultural spot markets can function as relative performance evaluation, using market prices to infer grower effort.
+#+end_description
+
+[[/images/hueth-ligon01.png]]
+
+#+begin_summary
+Spot markets for agricultural commodities reveal information about grower quality that contracts can exploit.  We show how market prices serve as a form of relative performance evaluation.
+#+end_summary
+
+*** Download
+- [[https://www.jstor.org/stable/1244675][Paper]]
+*** Abstract
+We develop a model in which an agricultural spot market serves as a relative performance evaluation device. In this setting, the market price conveys information about factors common to all growers, such as weather, which helps to distinguish the quality of an individual grower's effort from factors beyond the grower's control. We derive the optimal contract between a processor and a grower and show that the contract offers the grower partial insurance against market price fluctuations while retaining incentives for effort.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hueth-ligon01,
+  author	= {Brent Hueth and Ethan Ligon},
+  title		= {Agricultural Markets as Relative Performance Evaluation},
+  journal	= {American Journal of Agricultural Economics},
+  year		= 2001,
+  volume	= 83,
+  number	= 2,
+  pages		= {318--328}
+}
+#+end_src
+
+** Policing Mechanisms in Agricultural Contracts :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/wolf-hueth-ligon01
+:EXPORT_FILE_NAME: index
+:ID:       b9d1b426-a9e1-43c1-a2d5-8170a121a0bb
+:EXPORT_DATE: <2001-09-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/wolf-hueth-ligon01.png") (alt . "Policing mechanisms in agricultural contracts") (relative . t))
+:END:
+
+#+begin_description
+Identifies four policing instruments in California fruit and vegetable contracts: input control, monitoring, quality measurement, and revenue sharing.
+#+end_description
+
+[[/images/wolf-hueth-ligon01.png]]
+
+#+begin_summary
+How do processors ensure that growers deliver the quality they promise?  We identify four policing instruments---input control, monitoring, quality measurement, and revenue sharing---used in California produce contracts.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1111/j.1549-0831.2001.tb00072.x][Paper]]
+*** Abstract
+We examine mechanisms of coordination in agricultural contracts, with an approach intended to advance understanding of social relations of production and distribution of power in agrofood systems. Through analysis of contracts between farmers and intermediaries for California fruits and vegetables, we identify three functions of contracts: they help to coordinate production, they provide incentives to induce particular behaviors, and they allow farmers and intermediaries to share risk. These functions are implemented via four policing instruments: input control, monitoring, quality measurement, and revenue sharing, which are employed by intermediaries to mitigate blind spots in contracts and to control farmers' actions and the quality of their output.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  wolf-hueth-ligon01,
+  author	= {Steven Wolf and Brent Hueth and Ethan Ligon},
+  title		= {Policing Mechanisms in Agricultural Contracts},
+  journal	= {Rural Sociology},
+  year		= 2001,
+  volume	= 66,
+  number	= 3,
+  pages		= {359--382},
+  doi		= {10.1111/j.1549-0831.2001.tb00072.x}
+}
+#+end_src
+
+** Agricultural Supply Response Under Contract :Agriculture:Contracts:Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/hueth-ligon99a
+:EXPORT_FILE_NAME: index
+:ID:       dabfbaf6-c88b-48b0-ba4e-8e9575abf743
+:EXPORT_DATE: <1999-08-01 Sun>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hueth-ligon99a.png") (alt . "Agricultural supply response under contract") (relative . t))
+:END:
+
+#+begin_description
+Analyzes how contracts with risk-neutral intermediaries change the supply response of risk-averse agricultural producers.
+#+end_description
+
+[[/images/hueth-ligon99a.png]]
+
+#+begin_summary
+How does contracting change a farmer's supply response to price changes?  When intermediaries absorb risk and farmers have private information, supply response is dampened relative to spot-market farming.
+#+end_summary
+
+*** Download
+- [[https://www.jstor.org/stable/1244022][Paper]]
+*** Abstract
+We consider four environments in which agricultural producers might operate, studying the role of price and production risk in shaping farmers' supply-response decisions. In the first two environments, farmers market their own produce and are risk neutral and risk averse, respectively. In the third, farmers are risk averse, but risk neutral intermediation predicts that farmers should not face any production or price risk. In the final environment, risk neutral intermediation continues but the possibility of private information for farmers is admitted, which rationalizes exposure to production and price risk and suggests that a farmer's response to a change in expected price will be less pronounced than in other environments.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hueth-ligon99a,
+  author	= {Brent Hueth and Ethan Ligon},
+  title		= {Agricultural Supply Response Under Contract},
+  journal	= {American Journal of Agricultural Economics},
+  year		= 1999,
+  volume	= 81,
+  number	= 3,
+  pages		= {610--615}
+}
+#+end_src
+
+** Producer Price Risk and Quality Measurement :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/hueth-ligon99b
+:EXPORT_FILE_NAME: index
+:ID:       1f4ddb14-d48c-4d14-9448-27236513187a
+:EXPORT_DATE: <1999-08-01 Sun>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hueth-ligon99b.png") (alt . "Producer price risk and quality measurement") (relative . t))
+:END:
+
+#+begin_description
+Shows that imperfect quality measurement creates a moral hazard problem in which efficient contracts expose growers to residual price risk.
+#+end_description
+
+[[/images/hueth-ligon99b.png]]
+
+#+begin_summary
+Why don't contracts fully insure growers against price risk?  Because price conveys information about quality that direct measurement misses, so efficient contracts leave growers exposed to some price risk.
+#+end_summary
+
+*** Download
+- [[https://www.jstor.org/stable/1244011][Paper]]
+*** Abstract
+Risk-averse farmers in the produce industry grow a product whose market price is often quite unpredictable. Shippers or other intermediaries shield the farmer from much of this price risk; however, actual contracts between growers and shippers vary considerably across commodities in the residual price risk growers face. We hypothesize that imperfect quality measurement results in a moral hazard problem, and that price provides additional information regarding quality. As a consequence, an efficient contract does not shield growers from all idiosyncratic price risk.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hueth-ligon99b,
+  author	= {Brent Hueth and Ethan Ligon},
+  title		= {Producer Price Risk and Quality Measurement},
+  journal	= {American Journal of Agricultural Economics},
+  year		= 1999,
+  volume	= 81,
+  number	= 3,
+  pages		= {512--524}
+}
+#+end_src
+
+** Incentive Instruments in Fruit and Vegetable Contracts :Agriculture:Contracts:
+:PROPERTIES:
+:export_hugo_bundle: papers/hueth-etal99
+:EXPORT_FILE_NAME: index
+:ID:       6a2fae28-4c3d-46ce-bf85-9f339bb889da
+:EXPORT_DATE: <1999-09-01 Wed>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/hueth-etal99.png") (alt . "Incentive instruments in fruit and vegetable contracts") (relative . t))
+:END:
+
+#+begin_description
+Identifies four generic incentive instruments used in California fruit and vegetable contracts to coordinate grower-handler relationships.
+#+end_description
+
+[[/images/hueth-etal99.png]]
+
+#+begin_summary
+Contracts between growers and handlers use four instruments---input control, field visits, quality measurement, and residual price risk---to align incentives and coordinate production in California produce markets.
+#+end_summary
+
+*** Download
+- [[https://www.jstor.org/stable/1349886][Paper]]
+*** Abstract
+We examine the structure of contractual relations between growers and first handlers in California fruit and vegetable markets. We identify four generic instruments---input control, field visits, quality measurement, and residual price risk---which are used to coordinate relations between growers and first handlers and which help to alleviate information asymmetries and align incentives between contracting parties.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  hueth-etal99,
+  author	= {Brent Hueth and Ethan Ligon and Steven Wolf and Steven
+		  Wu},
+  title		= {Incentive Instruments in Fruit and Vegetable Contracts:
+		  Input Control, Monitoring, Measuring, and Price Risk},
+  journal	= {Review of Agricultural Economics},
+  year		= 1999,
+  volume	= 21,
+  number	= 2,
+  pages		= {374--389}
 }
 #+end_src
 
