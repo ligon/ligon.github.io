@@ -623,6 +623,44 @@ Contracting is widespread in agriculture, yet there is no systematic data collec
 }
 #+end_src
 
+** Risk Management in the Cooperative Contract :Agriculture:Contracts:Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon09
+:EXPORT_FILE_NAME: index
+:ID:       26156715-0c94-41d4-8712-6e7fbf69022a
+:EXPORT_DATE: <2009-12-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon09.png") (alt . "Risk management in the cooperative contract") (relative . t))
+:END:
+
+#+begin_description
+Shows how agricultural cooperatives can use multi-year relationships to provide insurance against crop shortfalls.
+#+end_description
+
+[[/images/ligon09.png]]
+
+#+begin_summary
+Cooperatives help members manage marketing risk within a season, but not production risk across years.  We show how the multi-year cooperative relationship can also provide limited crop insurance.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1111/j.1467-8276.2009.01286.x][Paper]]
+*** Abstract
+Agricultural cooperatives have long played an important role in helping their members manage risk, though they do a much better job of helping members manage some sorts of risk than others. In particular, co-ops are good at helping members manage marketing risk, but seem not to be particularly good at helping their members manage production risk. This paper argues that by taking advantage of the multi-year nature of most members' relationship with the cooperative, the cooperative can also provide a useful, though limited, form of insurance against crop shortfalls.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon09,
+  author	= {Ethan Ligon},
+  title		= {Risk Management in the Cooperative Contract},
+  journal	= {American Journal of Agricultural Economics},
+  year		= 2009,
+  volume	= 91,
+  number	= 5,
+  pages		= {1211--1217},
+  doi		= {10.1111/j.1467-8276.2009.01286.x}
+}
+#+end_src
+
 ** Using Production Data to Design Efficient Contracts :Agriculture:Contracts:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon04
@@ -773,6 +811,43 @@ We construct a measure of vulnerability which permits us to decompose the welfar
   number	= 486,
   pages		= {C95--C102},
   doi		= {10.1111/1468-0297.00117}
+}
+#+end_src
+
+** Optimal Risk in Agricultural Contracts :Agriculture:Contracts:Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon02
+:EXPORT_FILE_NAME: index
+:ID:       0c09b102-b0bb-419f-a1d8-450f11e9a1d4
+:EXPORT_DATE: <2002-01-01 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon02.png") (alt . "Optimal risk in agricultural contracts") (relative . t))
+:END:
+
+#+begin_description
+Characterizes the optimal level of risk in agricultural production contracts, showing that "less risk" need not mean "smaller variance."
+#+end_description
+
+[[/images/ligon02.png]]
+
+#+begin_summary
+When farmers produce under contract, there is a tension between risk and incentives.  We provide a simple characterization of optimal risk and show that "less risk" need not mean "smaller variance."
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1016/S0308-521X(02)00069-0][Paper]]
+*** Abstract
+When farmers produce under contract, there may be an important tension between risk and incentives. We provide a simple characterization of the optimal risk in any production system. We also show that "less risk" need not imply "smaller variance," and that while at the margin the behavior of risk-averse farmers may appear to be nearly risk-neutral, it does not follow that one can generally treat such producers "as if" they were risk-neutral without being greatly led astray.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon02,
+  author	= {Ethan Ligon},
+  title		= {Optimal Risk in Agricultural Contracts},
+  journal	= {Agricultural Systems},
+  year		= 2002,
+  volume	= 75,
+  pages		= {265--276},
+  doi		= {10.1016/S0308-521X(02)00069-0}
 }
 #+end_src
 
@@ -1115,6 +1190,154 @@ Recent work on consumption allocations in village economies finds that idiosyncr
   number	= 1,
   pages		= {209--244},
   doi		= {10.1111/1467-937X.00204}
+}
+#+end_src
+
+** Liquidity Constraints and Incentive Contracts :Contracts:Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/lehnert-ligon-townsend99
+:EXPORT_FILE_NAME: index
+:ID:       71337365-036e-45b4-868e-e05b74e8bb88
+:EXPORT_DATE: <1999-03-01 Mon>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/lehnert-ligon-townsend99.png") (alt . "Liquidity constraints and incentive contracts") (relative . t))
+:END:
+
+#+begin_description
+Develops methods to distinguish whether firms and households face exogenous credit constraints or endogenous constraints arising from moral hazard or limited commitment.
+#+end_description
+
+[[/images/lehnert-ligon-townsend99.png]]
+
+#+begin_summary
+Are firms credit-constrained, or do they just look that way?  We develop methods to distinguish exogenous borrowing limits from endogenous constraints that arise from incentive problems.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1017/S1365100599010019][Paper]]
+*** Abstract
+Are firms and households constrained in the use of a productive input? Theoretical approaches to this question range from exogenously imposed credit allocation rules to endogenous market failures stemming from limited-commitment or moral-hazard problems. We develop and implement econometric methods that allow us to distinguish among these different sources of constraints. We apply these methods to Thai data on rice farmers and find evidence consistent with moral hazard but not with exogenous credit constraints.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  lehnert-ligon-townsend99,
+  author	= {Andreas Lehnert and Ethan Ligon and Robert Townsend},
+  title		= {Liquidity Constraints and Incentive Contracts},
+  journal	= {Macroeconomic Dynamics},
+  year		= 1999,
+  volume	= 3,
+  number	= 1,
+  pages		= {1--47},
+  doi		= {10.1017/S1365100599010019}
+}
+#+end_src
+
+** Government Management of Village Commons :Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-narain99
+:EXPORT_FILE_NAME: index
+:ID:       e61a8136-7821-41ed-8164-d09e05964474
+:EXPORT_DATE: <1999-05-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-narain99.png") (alt . "Government management of village commons") (relative . t))
+:END:
+
+#+begin_description
+Compares two government policies for managing village forest commons when direct enforcement is difficult.
+#+end_description
+
+[[/images/ligon-narain99.png]]
+
+#+begin_summary
+When governments cannot directly enforce forest conservation, they may try to give villagers a share of the harvest.  We compare this Joint Forest Management policy to a simple benchmark and ask who prefers which.
+#+end_summary
+
+*** Download
+- [[https://doi.org/10.1006/jeem.1998.1066][Paper]]
+*** Abstract
+When monitoring or enforcement is difficult, governments may find it impossible to manage village forest commons directly. Village-level institutions might be better able to manage these commons, yet villagers' management objectives may not coincide with those of the state. We consider the effects of two different government policies on the local management of village commons. One policy tool attempts to induce villagers to conserve forest commons by giving them a share of the timber harvest. We investigate whether this Joint Forest Management scheme is preferred either by the villagers or the government to a simple benchmark policy under which the government harvests at random.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-narain99,
+  author	= {Ethan Ligon and Urvashi Narain},
+  title		= {Government Management of Village Commons},
+  journal	= {Journal of Environmental Economics and Management},
+  year		= 1999,
+  volume	= 37,
+  pages		= {272--289},
+  doi		= {10.1006/jeem.1998.1066}
+}
+#+end_src
+
+** Computing the Equilibria of Dynamic Common Property Games :Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon-narain97
+:EXPORT_FILE_NAME: index
+:ID:       cd4d0073-74bb-49b4-bfd7-23a0cc7837ce
+:EXPORT_DATE: <1997-10-01 Wed>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon-narain97.png") (alt . "Computing equilibria of dynamic common property games") (relative . t))
+:END:
+
+#+begin_description
+Develops computational methods for finding equilibria of dynamic games in which multiple agents exploit a common-pool resource.
+#+end_description
+
+[[/images/ligon-narain97.png]]
+
+#+begin_summary
+Dynamic common-property games are hard to solve.  We develop computational methods for finding their equilibria and apply them to village forest management problems.
+#+end_summary
+
+*** Download
+*** Abstract
+We develop computational methods for finding the equilibria of dynamic games in which multiple agents exploit a common-pool resource. These methods allow us to characterize the set of subgame-perfect equilibria for a class of common property resource games, including games with heterogeneous players and asymmetric information.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon-narain97,
+  author	= {Ethan Ligon and Urvashi Narain},
+  title		= {Computing the Equilibria of Dynamic Common Property
+		  Games},
+  journal	= {Natural Resource Modeling},
+  year		= 1997,
+  volume	= 10,
+  number	= 4,
+  pages		= {345--369}
+}
+#+end_src
+
+** The Swamp and the Shopping Center: An Interest Rate Parable :Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/berck-ligon96
+:EXPORT_FILE_NAME: index
+:ID:       2e165011-1649-4b6c-b6aa-e87e49e4882e
+:EXPORT_DATE: <1996-01-01 Mon>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/berck-ligon96.png") (alt . "The swamp and the shopping center") (relative . t))
+:END:
+
+#+begin_description
+Uses a parable of a swamp and a shopping center to illustrate how the choice of discount rate affects cost-benefit analysis of environmental projects.
+#+end_description
+
+[[/images/berck-ligon96.png]]
+
+#+begin_summary
+Should you drain the swamp to build a shopping center?  The answer depends on the discount rate, and this parable shows why the choice of rate matters so much for environmental cost-benefit analysis.
+#+end_summary
+
+*** Download
+*** Abstract
+We use a parable involving the decision to drain a swamp to build a shopping center to illustrate the importance of the discount rate in environmental cost-benefit analysis. The parable demonstrates that standard discounting practices can lead to decisions that are neither efficient nor sustainable, and that the choice of discount rate is itself an economic decision with important welfare implications.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  berck-ligon96,
+  author	= {Peter Berck and Ethan Ligon},
+  title		= {The Swamp and the Shopping Center: An Interest Rate
+		  Parable},
+  journal	= {Ecological Modelling},
+  year		= 1996,
+  volume	= 92,
+  pages		= 275
 }
 #+end_src
 
