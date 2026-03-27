@@ -470,7 +470,43 @@ We conduct dictator-type games in rural Paraguay with different treatments that 
 }
 #+end_src
 
-** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:
+
+** Risk-Sharing and Information in Village Economies :Risk_sharing:Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon98
+:EXPORT_FILE_NAME: index
+:ID:       e8917bb5-08e4-4cb3-af5f-8b4b2e021b3c
+:EXPORT_DATE: <1998-10-01 Thu>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon98.png") (alt . "Risk-sharing and information in village economies") (relative . t))
+:END:
+
+#+begin_description
+Tests the implications of private information for risk sharing in ICRISAT villages, finding that information problems constrain consumption smoothing.
+#+end_description
+
+[[/images/ligon98.png]]
+
+#+begin_summary
+Full risk sharing is rejected in Indian village data, but why?  This paper tests whether private information about income explains the pattern of consumption allocations in ICRISAT villages.
+#+end_summary
+
+*** Download
+- [[https://www.jstor.org/stable/2566915][Paper]]
+*** Abstract
+Efficient risk sharing implies that consumption allocations depend only on aggregate resources, not on individual income. This prediction is rejected by data from ICRISAT villages in India. This paper considers the possibility that these departures from full risk sharing are due to private information about income. We derive the implications of private information for risk sharing and test these restrictions using data from three Indian villages. We find evidence that private information constrains risk sharing, and that an informationally constrained efficient allocation fits the data significantly better than either full risk sharing or autarky.
+*** BibTeX
+
+#+begin_src bibtex
+@Article{	  ligon98,
+  author	= {Ethan Ligon},
+  title		= {Risk Sharing and Information in Village Economies},
+  journal	= {Review of Economic Studies},
+  year		= 1998,
+  volume	= 65,
+  number	= 4,
+  pages		= {847--864}
+}
+#+end_src** Informal Insurance Arrangements with Limited Commitment :Risk_sharing:
 :PROPERTIES:
 :export_hugo_bundle: papers/ligon-thomas-worrall02
 :EXPORT_FILE_NAME: index
