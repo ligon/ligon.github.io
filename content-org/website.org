@@ -1628,6 +1628,7 @@ LSMS datasets are invaluable for poverty research but each country uses differen
 #+end_summary
 
 *** Links
+- [[https://ligon.github.io/LSMS_Library][Documentation]]
 - [[https://github.com/ligon/LSMS_Library][GitHub Repository]]
 - [[https://pypi.org/project/LSMS-Library/][PyPI Package]]
 
@@ -1679,6 +1680,7 @@ Unix permissions have been battle-tested for fifty years: give a new collaborato
 #+end_summary
 
 *** Links
+- [[https://ligon.github.io/sucoder][Documentation]]
 - [[https://github.com/ligon/sucoder][GitHub Repository]]
 
 *** Overview
