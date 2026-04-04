@@ -93,6 +93,72 @@ Working papers and articles by Ethan Ligon.
 See [[https://scholar.google.com/citations?user=jRwNfxwAAAAJ][google scholar]] for published papers or older working (resting) papers.
 
 * Papers
+** No More Grading: Incentive Compatible Peer Assessment in a Project-Based Course :Education:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon26nomoregrading
+:EXPORT_FILE_NAME: index
+:ID:       1dc637ac-6925-4ee8-ab10-22a76118bff3
+:EXPORT_DATE: <2026-04-03 Fri>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon26nomoregrading.png") (alt . "Peer evaluation matrix heatmap showing SVD-extracted quality signal") (relative . t))
+:END:
+
+#+begin_description
+Describes an incentive-compatible system for grading collaborative student work using peer assessment, SVD-based score extraction, and strategic team formation.
+#+end_description
+
+[[/images/ligon26nomoregrading.png]]
+
+#+begin_summary
+Grading team projects is hard; getting students to evaluate each other honestly is harder.  We describe a peer-assessment system refined over eight years that uses SVD on residualized evaluations to extract a robust quality signal and rewards careful, honest assessment.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/2183z6g8][Paper]]
+*** Abstract
+We describe a system for grading collaborative student work that has
+been developed and refined over eight years of a project-based
+undergraduate course.  Students complete four team projects per
+semester, with teams reassigned each round.  After each project, every
+student evaluates other teams' deliverables, assesses their own
+teammates' contributions, and predicts the scores they themselves will
+receive.  These three streams of assessment data are combined using
+singular value decomposition (SVD) applied to residualized evaluation
+matrices.  Residualization removes evaluator-specific biases (the
+tendency to rate generously or harshly); SVD then extracts the
+dominant latent quality axis from the bias-corrected data, weighting
+questions by their informativeness.  Scores are aggregated via medians
+for robustness to outlier evaluators.  Each student's composite grade
+reflects five components: team quality, individual contribution as
+assessed by teammates, evaluator discrimination (rewarding careful
+assessment of others), and two measures of self-assessment accuracy
+(penalizing the gap between predicted and actual peer ratings).  We
+map composite scores to letter grades using an anchor-point method
+that keys grade boundaries to the median performance of the top five
+students, spacing bands at one-third standard deviation intervals.
+The system also feeds assessment information forward into team
+composition.  Teams are formed via a stratified round-robin algorithm
+that spreads technical skill evenly across groups; for subsequent
+projects, self-reported skill is replaced by peer-assessed skill.  A
+conflict-avoidance mechanism uses "would you work with this person
+again" responses to keep incompatible students apart.  We present the
+mathematical foundations in enough detail for replication, discuss
+incentive properties (robustness to strategic manipulation,
+encouragement of honest and thoughtful evaluation), and illustrate the
+procedure with a worked numerical example.
+*** BibTeX
+
+#+begin_src bibtex
+@Unpublished{	  ligon26nomoregrading,
+  author	= {Ethan Ligon},
+  title		= {No More Grading: Incentive Compatible Peer Assessment
+		  in a Project-Based Course},
+  note		= {Department of Agricultural and Resource Economics,
+		  UC Berkeley},
+  year		= 2026,
+  url		= {https://escholarship.org/uc/item/2183z6g8}
+}
+#+end_src
+
 ** Consumer Demand with Price Aggregators and Low-Rank Cross-Price Effects :Demand:Agriculture:MUE:
 :PROPERTIES:
 :export_hugo_bundle: papers/fally-ligon26
@@ -505,6 +571,106 @@ What motivates people in rural villages to share? We first elicit a baseline lev
   number	= 1,
   pages		= {13--26},
   doi		= {10.1016/j.jdeveco.2011.12.002}
+}
+#+end_src
+
+** Incentives & Nutrition for Rotten Kids: The Quantity & Quality of Food Allocated within Philippine Households :Development:Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/dubois-ligon12
+:EXPORT_FILE_NAME: index
+:ID:       584c3810-cdb2-459c-a5c7-1aa60f727aa4
+:EXPORT_DATE: <2012-02-10 Fri>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/dubois-ligon12.png") (alt . "Quality versus quantity of food allocation contour surface") (relative . t))
+:END:
+
+#+begin_description
+Distinguishes the quantity and quality of food allocated within households when nutrition affects both utility and future productivity, and tests the model with Philippine data.
+#+end_description
+
+[[/images/dubois-ligon12.png]]
+
+#+begin_summary
+How does a household decide who eats how much of what?  We show that when nutrition affects future productivity, investing more in one member's nutrition can paradoxically reduce the quality of her food, and test these predictions with individual-level consumption data from Philippine farm households.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/2r96467x][Paper]]
+*** Abstract
+We construct a model of food demand which distinguishes between the
+nutrients supplied by a particular food bundle and the quality of that
+bundle, as measured by its cost.  We show that when nutrition affects
+only utility then under rather general conditions it will be optimal
+for all members of the household to consume food bundles of identical
+quality.  This is true even when household members have private
+information about their actions---in this case the /quantity/ of food
+given may provide incentives, but quality remains common within the
+household.  When nutrition affects household resources our finding that
+quality is constant is overturned---in this case when the household
+invests more in the nutrition of one member it will simultaneously
+/reduce/ the quality of her food bundle.
+
+Using data on individual-level food consumption from a sample of farm
+households in the Philippines, we estimate and test a dynamic model of
+intra-household food allocation.  We find that individual consumption
+shares respond to individual earnings shocks.  At least part of this
+response is due to nutritional investments, but it appears that the
+allocation of food also plays a role in providing incentives within
+the household.
+*** BibTeX
+
+#+begin_src bibtex
+@Unpublished{	  dubois-ligon12,
+  author	= {Pierre Dubois and Ethan Ligon},
+  title		= {Incentives \& Nutrition for Rotten Kids: The Quantity \&
+		  Quality of Food Allocated within {P}hilippine Households},
+  note		= {Unpublished Manuscript},
+  year		= 2012,
+  url		= {https://escholarship.org/uc/item/2r96467x}
+}
+#+end_src
+
+** Nutrition and Risk Sharing within the Household :Development:Risk_sharing:
+:PROPERTIES:
+:export_hugo_bundle: papers/dubois-ligon10
+:EXPORT_FILE_NAME: index
+:ID:       89b783e1-ed93-4ebe-b536-11c71994b4c8
+:EXPORT_DATE: <2010-01-25 Mon>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/dubois-ligon10.png") (alt . "Intra-household food consumption shares over time") (relative . t))
+:END:
+
+#+begin_description
+Tests risk-sharing within households by contrasting the unitary model with one in which nutrition affects future productivity, using individual consumption data from Philippine farm households.
+#+end_description
+
+[[/images/dubois-ligon10.png]]
+
+#+begin_summary
+Do households allocate food efficiently among their members?  Using individual consumption data from the Philippines, we test whether nutrition's role in future productivity explains why consumption responds to earnings shocks within the household.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/2td8z1g3][Paper]]
+*** Abstract
+Using data on individual consumption from farm households in the
+Philippines, we construct a direct test of risk-sharing within the
+household.  We contrast the efficient outcomes predicted by the
+unitary household model with the outcomes we might expect if food
+consumption delivers not only utils, but also nutrients affecting
+future productivity.  The efficiency conditions which characterize the
+within-household allocation of food under the unitary model are
+violated, as consumption responds to earnings shocks.  If productivity
+depends on nutrition, this explains some but not all of the response,
+as earnings "surprises" have some effect on the cost and composition
+of diet.
+*** BibTeX
+
+#+begin_src bibtex
+@Unpublished{	  dubois-ligon10,
+  author	= {Pierre Dubois and Ethan Ligon},
+  title		= {Nutrition and Risk Sharing within the Household},
+  note		= {CUDARE Working Paper No. 1096},
+  year		= 2010,
+  url		= {https://escholarship.org/uc/item/2td8z1g3}
 }
 #+end_src
 
@@ -1190,6 +1356,58 @@ Recent work on consumption allocations in village economies finds that idiosyncr
   number	= 1,
   pages		= {209--244},
   doi		= {10.1111/1467-937X.00204}
+}
+#+end_src
+
+** Dynamic Bargaining in Households (with an Application to Bangladesh) :Risk_sharing:Development:
+:PROPERTIES:
+:export_hugo_bundle: papers/ligon02dynamic
+:EXPORT_FILE_NAME: index
+:ID:       3485a0c2-ac09-4e41-8c2b-371a586da335
+:EXPORT_DATE: <2002-05-09 Thu>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/ligon02dynamic.png") (alt . "Dynamic Pareto weight paths for household members") (relative . t))
+:END:
+
+#+begin_description
+Uses a dynamic limited-commitment framework to model intra-household bargaining, replacing the Pareto-optimality axiom of Nash Bargaining with a weaker efficiency notion.
+#+end_description
+
+[[/images/ligon02dynamic.png]]
+
+#+begin_summary
+Nash Bargaining predicts Pareto-optimal allocations, but forward-looking household members should smooth away income shocks.  We replace Pareto optimality with limited commitment and show how this resolves the puzzle of women borrowers voluntarily surrendering Grameen Bank loans to their husbands.
+#+end_summary
+
+*** Download
+- [[https://escholarship.org/uc/item/1t52k4c5][Paper]]
+*** Abstract
+Much recent empirical work on intra-household allocation uses the
+axiomatic Nash Bargaining model to make predictions about how the
+distribution of consumption within the household will respond to
+individuals' income shocks.  However, one of the basic axioms
+underlying this approach is that allocations will be Pareto optimal,
+so forward-looking, risk adverse household members ought to be
+expected to smooth away any such response to income shocks---Pareto
+optimality seems to be too strong in a dynamic setting.  In this paper
+we use explicitly dynamic framework and replace the axiom of Pareto
+optimality with a weaker notion of efficiency.  We give a simple
+algorithm for computing allocations, and construct an extended
+example, meant to model the effects of Grameen Bank lending on
+intra-household allocation in Bangladesh.  The model resolves a puzzle
+in the literature, namely, it predicts that women borrowers will often
+voluntarily surrender control ("pipeline") their loans to their
+husbands.
+*** BibTeX
+
+#+begin_src bibtex
+@Unpublished{	  ligon02dynamic,
+  author	= {Ethan Ligon},
+  title		= {Dynamic Bargaining in Households (with an Application
+		  to {B}angladesh)},
+  note		= {CUDARE Working Paper No. 25102, Department of Agricultural
+		  and Resource Economics, UC Berkeley},
+  year		= 2002,
+  url		= {https://escholarship.org/uc/item/1t52k4c5}
 }
 #+end_src
 
