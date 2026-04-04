@@ -92,6 +92,15 @@ Working papers and articles by Ethan Ligon.
 
 See [[https://scholar.google.com/citations?user=jRwNfxwAAAAJ][google scholar]] for published papers or older working (resting) papers.
 
+** software
+:PROPERTIES:
+:export_hugo_bundle: software
+:EXPORT_FILE_NAME: _index
+:END:
+#+begin_description
+Open-source software projects by Ethan Ligon.
+#+end_description
+
 * Papers
 ** No More Grading: Incentive Compatible Peer Assessment in a Project-Based Course :Education:
 :PROPERTIES:
@@ -1597,3 +1606,90 @@ Does the sectoral composition of aggregate economic growth affect poverty? We as
   url		= {https://escholarship.org/uc/item/3zh92962}
 }
 #+end_src
+
+* Software
+** LSMS Library :Data:Development:Python:
+:PROPERTIES:
+:export_hugo_bundle: software/lsms-library
+:EXPORT_FILE_NAME: index
+:ID:       a57b3c5b-63a8-4712-9de6-d077e66a0cbc
+:EXPORT_DATE: <2025-05-06 Tue>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/lsms-library.png") (alt . "Country-by-wave data availability grid for LSMS surveys") (relative . t))
+:END:
+
+#+begin_description
+A Python library providing uniform access to Living Standards Measurement Study household survey data across countries and years.
+#+end_description
+
+[[/images/lsms-library.png]]
+
+#+begin_summary
+LSMS datasets are invaluable for poverty research but each country uses different variable names, food codes, and file formats.  Rather than harmonizing the data itself, =LSMS_Library= provides an abstraction layer that standardizes how you /access/ the data, preserving granularity that traditional harmonization loses.
+#+end_summary
+
+*** Links
+- [[https://github.com/ligon/LSMS_Library][GitHub Repository]]
+- [[https://pypi.org/project/LSMS-Library/][PyPI Package]]
+
+*** Overview
+LSMS_Library is a Python library offering uniform access to Living
+Standards Measurement Study (LSMS) household surveys across multiple
+countries and years.  Each country uses different variable names, food
+classifications, questionnaire structures, and file formats.
+Researchers either invest weeks learning each dataset or settle for
+pre-harmonized data that sacrifices detail.
+
+Rather than harmonizing data itself, the library provides an
+abstraction layer that standardizes how you access the data across
+different LSMS surveys.  Install via =pip install LSMS_Library= and
+access data through consistent method calls returning standardized
+DataFrames.
+
+*** Citation
+
+#+begin_src bibtex
+@Software{	  ligon25lsms,
+  author	= {Ethan Ligon},
+  title		= {{LSMS\_Library}: Abstraction Layer for Living Standards
+		  Measurement Surveys},
+  year		= 2025,
+  publisher	= {Zenodo},
+  doi		= {10.5281/zenodo.17258079},
+  url		= {https://github.com/ligon/LSMS_Library}
+}
+#+end_src
+
+** sucoder :Software:Python:
+:PROPERTIES:
+:export_hugo_bundle: software/sucoder
+:EXPORT_FILE_NAME: index
+:ID:       4ef2bdd3-ac67-4b26-a1eb-a3c0de049839
+:EXPORT_DATE: <2026-02-16 Mon>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/sucoder.png") (alt . "Agent-by-path permission matrix for sandboxed coding agents") (relative . t))
+:END:
+
+#+begin_description
+Sandbox for AI coding agents using Unix filesystem permissions---treating the agent as a collaborator with its own account.
+#+end_description
+
+[[/images/sucoder.png]]
+
+#+begin_summary
+Unix permissions have been battle-tested for fifty years: give a new collaborator their own account and let the filesystem enforce the boundaries.  =sucoder= applies the same principle to AI coding agents, sandboxing them in mirror clones with full write access while protecting the human's canonical repository.
+#+end_summary
+
+*** Links
+- [[https://github.com/ligon/sucoder][GitHub Repository]]
+
+*** Overview
+sucoder treats an LLM coding agent (Claude, Codex, Gemini) as a
+collaborator with its own Unix account.  The human's canonical
+repository is group-readable but not group-writable; the agent works
+in a sandboxed mirror clone where it has full write access.
+
+The =sucoder collaborate= command resolves configuration, prepares the
+canonical repo, clones or verifies the mirror, syncs or creates task
+branches, composes agent launch commands, launches the agent, and
+reviews results.  Features include git worktree support for parallel
+agent work, remote execution on HPC clusters via SSH, tmux session
+management, and compliance auditing of agent-written code.

@@ -19,7 +19,7 @@ params:
     googleAnalyticsID: "G-SJQ9VEHFN1"
     math: true
     hideFooter: true
-    MainSections: ["papers",]
+    MainSections: ["papers", "software"]
 
     profileMode:
           enabled: true
@@ -31,6 +31,8 @@ params:
           buttons:
             - name: Papers
               url: papers/
+            - name: Software
+              url: software/
             - name: Tags
               url: tags/
             - name: Archive
