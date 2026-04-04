@@ -1665,7 +1665,7 @@ DataFrames.
 :EXPORT_FILE_NAME: index
 :ID:       4ef2bdd3-ac67-4b26-a1eb-a3c0de049839
 :EXPORT_DATE: <2026-02-16 Mon>
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/sucoder.png") (alt . "Agent-by-path permission matrix for sandboxed coding agents") (relative . t))
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :cover '((image . "images/sucoder.png") (alt . "Sue Coder at her cyberpunk terminal") (relative . t))
 :END:
 
 #+begin_description
